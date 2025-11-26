@@ -11,7 +11,9 @@ from datetime import datetime
 from typing import Dict, List, Any, Optional
 
 # API Configuration
-APIFY_API_TOKEN = "apify_api_8YXjcrdCIMuvbIdb9HdVXSOILePkyo06tZLh"
+import os
+
+APIFY_API_TOKEN = os.getenv('APIFY_API_TOKEN', 'your_token_here')
 APIFY_BASE_URL = "https://api.apify.com/v2"
 TIKTOK_ACTOR_ID = "xtdata~tiktok-user-information-scraper"
 
