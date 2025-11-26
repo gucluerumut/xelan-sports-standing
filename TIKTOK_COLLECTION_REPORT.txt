@@ -1,0 +1,172 @@
+================================================================================
+TIKTOK DATA COLLECTION REPORT
+================================================================================
+
+Total Requested: 113
+Successfully Collected: 111
+Missing/Failed: 2
+
+================================================================================
+✅ SUCCESSFULLY COLLECTED (111 clubs)
+================================================================================
+
+  1. @realmadrid                |   68,693,675 followers | Real Madrid C.F.
+  2. @fcbarcelona               |   61,645,241 followers | fcbarcelona
+  3. @psg                       |   50,685,285 followers | psg
+  4. @spursofficial             |   43,061,739 followers | spursofficial
+  5. @juventus                  |   41,825,618 followers | juventus
+  6. @mancity                   |   33,234,800 followers | Manchester City
+  7. @manutd                    |   30,901,580 followers | Manchester United
+  8. @atleticodemadrid          |   30,119,831 followers | Atlético de Madrid
+  9. @liverpoolfc               |   28,045,590 followers | Liverpool FC
+ 10. @fcbayern                  |   26,198,794 followers | FC Bayern
+ 11. @acmilan                   |   22,761,795 followers | AC Milan
+ 12. @chelseafc                 |   21,241,304 followers | Chelsea FC
+ 13. @inter                     |   17,896,838 followers | Inter
+ 14. @realsociedad              |   16,067,647 followers | Real Sociedad
+ 15. @realbetisbalompie         |   11,754,632 followers | Real Betis Balompié
+ 16. @sevillafc                 |   11,315,004 followers | SevillaFC
+ 17. @arsenal                   |   10,751,513 followers | arsenal
+ 18. @rccelta                   |    9,966,929 followers | RC Celta
+ 19. @athleticclub              |    9,440,093 followers | Athletic Club
+ 20. @valenciacf                |    8,514,879 followers | Valencia CF
+ 21. @nufc                      |    7,174,196 followers | Newcastle United
+ 22. @asmonaco                  |    6,991,646 followers | AS Monaco
+ 23. @westham                   |    6,942,348 followers | West Ham United
+ 24. @rcdespanyol               |    6,790,613 followers | rcdespanyol
+ 25. @sscnapoli                 |    6,330,675 followers | SSC Napoli
+ 26. @caosasuna                 |    5,318,462 followers | C. A. Osasuna
+ 27. @gironafc                  |    5,293,294 followers | GironaFC
+ 28. @getafecf                  |    5,229,949 followers | Getafe C.F.
+ 29. @deportivoalaves           |    4,748,232 followers | Deportivo Alavés
+ 30. @avfcofficial              |    4,453,352 followers | avfcofficial
+ 31. @galatasaray               |    3,962,186 followers | Galatasaray
+ 32. @everton                   |    3,656,234 followers | Everton
+ 33. @villarrealcf              |    3,537,100 followers | Villarreal CF
+ 34. @officialbhafc             |    3,395,079 followers | Brighton & Hove Albion FC
+ 35. @wolves                    |    3,356,762 followers | wolves
+ 36. @elchecf                   |    3,001,518 followers | Elche CF 🌴💚
+ 37. @rbleipzig                 |    2,914,863 followers | RBLeipzig
+ 38. @levanteud                 |    2,717,792 followers | Levante UD
+ 39. @brentfordfc               |    2,313,362 followers | Brentford Football Club
+ 40. @realoviedo                |    2,261,879 followers | RealOviedo
+ 41. @fenerbahce                |    2,024,194 followers | Fenerbahçe SK
+ 42. @rclens                    |    2,015,304 followers | RCLens
+ 43. @leedsunited               |    2,009,898 followers | Leeds United
+ 44. @afcb                      |    1,933,986 followers | AFC Bournemouth
+ 45. @sunderlandafc             |    1,591,158 followers | Sunderland AFC
+ 46. @parmacalcio1913           |    1,512,979 followers | Parma Calcio 1913
+ 47. @cpfc                      |    1,447,211 followers | Crystal Palace
+ 48. @borussia                  |    1,378,230 followers | diefohlen
+ 49. @rcsa                      |    1,376,633 followers | RCSA
+ 50. @fulhamfc                  |    1,364,109 followers | Fulham FC
+ 51. @ogcnice                   |    1,336,179 followers | OGC Nice
+ 52. @staderennaisfc            |    1,245,082 followers | Stade Rennais F.C.
+ 53. @vflwolfsburg              |    1,226,005 followers | VfL Wolfsburg
+ 54. @acffiorentina             |    1,150,697 followers | acffiorentina
+ 55. @burnleyofficial           |    1,077,942 followers | Burnley Football Club
+ 56. @rayovallecano             |      975,460 followers | Rayo Vallecano
+ 57. @toulousefc                |      875,126 followers | Toulouse Football Club
+ 58. @1fsvmainz05               |      662,956 followers | 1. FSV Mainz 05
+ 59. @fckoeln                   |      659,700 followers | 1. FC Köln
+ 60. @tsghoffenheim             |      628,271 followers | TSG Hoffenheim
+ 61. @fcnantes                  |      515,774 followers | FC Nantes
+ 62. @fcmetz                    |      405,919 followers | FC Metz
+ 63. @cagliaricalcio            |      363,899 followers | Cagliari Calcio
+ 64. @genoacfc                  |      340,663 followers | GenoaCfc
+ 65. @trabzonspor               |      331,682 followers | Trabzonspor
+ 66. @torinofc1906              |      328,308 followers | Torino Football Club
+ 67. @udinesecalcio             |      265,442 followers | Udinese Calcio
+ 68. @werderbremen              |      265,166 followers | werderbremen
+ 69. @scfreiburg                |      222,005 followers | SC Freiburg
+ 70. @hellasveronafc            |      184,934 followers | Hellas Verona FC
+ 71. @parisfc                   |      172,142 followers | Paris FC
+ 72. @sassuolocalcio            |      154,481 followers | U.S. Sassuolo Calcio
+ 73. @uscremonese               |      112,588 followers | Us Cremonese
+ 74. @fclorient                 |       88,047 followers | FCLorient
+ 75. @fcstpauli                 |       82,324 followers | FC St. Pauli
+ 76. @pisasportingclub          |       79,810 followers | Pisa Sporting Club
+ 77. @konyaspor                 |       53,321 followers | TÜMOSAN Konyaspor
+ 78. @ibfk2014                  |       48,792 followers | ibfk2014
+ 79. @uslecce                   |       36,185 followers | user57173388406
+ 80. @samsunspor                |       24,137 followers | Samsunspor
+ 81. @crizesporas               |        3,412 followers | Çaykur Rizespor
+ 82. @besiktas                  |        2,414 followers | beşiktaş
+ 83. @officialasroma            |        1,117 followers | officialasroma✔️
+ 84. @atalantabc                |        1,046 followers | Atalantabc
+ 85. @official_sslazio          |          997 followers | s.s. lazio
+ 86. @ol                        |          497 followers | o
+ 87. @eyupsporkulubu            |          231 followers | Eyüpspor
+ 88. @kasimpasask               |          222 followers | user20294421905
+ 89. @hsv                       |          200 followers | .
+ 90. @genclerbirligi            |          193 followers | Gençlerbirliği
+ 91. @angers_sco                |           94 followers | Angers sco
+ 92. @bolognafc1909             |           69 followers | forzabologna
+ 93. @goztepe                   |           60 followers | Çağlar Taşkın
+ 94. @eintrachtfrankfurt        |           52 followers | عمرو مرموش 👑
+ 95. @fcaugsburg1907            |           32 followers | fcaugsburg1907
+ 96. @antalyaspor               |           23 followers | antalyaspor#
+ 97. @olympiquedemarseille      |           21 followers | user30295775343
+ 98. @vfbstuttgart              |           20 followers | VFBStuttgart
+ 99. @stadebrestois29           |           14 followers | ❤️🤍
+100. @kocaelispor               |           10 followers | user127031
+101. @bayer04fussball           |           10 followers | AnnaKuckertz
+102. @comofootball              |            6 followers | VAR
+103. @rcdmallorca               |            5 followers | RCD Mallorca
+104. @alanyaspor                |            5 followers | eren.yardmc
+105. @ajauxerre                 |            5 followers | user3592128223623
+106. @nffc                      |            3 followers | nffc
+107. @gaziantepfk               |            3 followers | gaziantepfk
+108. @kayserisporfk             |            3 followers | turkiye
+109. @fatihkaragumruk           |            3 followers | ozmenalicann
+110. @bvb09                     |            2 followers | bvb09
+111. @losclive                  |            2 followers | Dijital Dünya
+
+================================================================================
+❌ MISSING/FAILED (2 clubs)
+================================================================================
+
+These clubs need manual data collection:
+
+  • @1fcunion
+  • @fch1846
+
+Manual Data Collection Template:
+--------------------------------------------------------------------------------
+
+Template saved to: tiktok-manual-data-template.json
+
+================================================================================
+🏆 TOP 20 BY FOLLOWERS
+================================================================================
+
+ 1. Real Madrid C.F.               @realmadrid             68,693,675
+ 2. fcbarcelona                    @fcbarcelona            61,645,241
+ 3. psg                            @psg                    50,685,285
+ 4. spursofficial                  @spursofficial          43,061,739
+ 5. juventus                       @juventus               41,825,618
+ 6. Manchester City                @mancity                33,234,800
+ 7. Manchester United              @manutd                 30,901,580
+ 8. Atlético de Madrid             @atleticodemadrid       30,119,831
+ 9. Liverpool FC                   @liverpoolfc            28,045,590
+10. FC Bayern                      @fcbayern               26,198,794
+11. AC Milan                       @acmilan                22,761,795
+12. Chelsea FC                     @chelseafc              21,241,304
+13. Inter                          @inter                  17,896,838
+14. Real Sociedad                  @realsociedad           16,067,647
+15. Real Betis Balompié            @realbetisbalompie      11,754,632
+16. SevillaFC                      @sevillafc              11,315,004
+17. arsenal                        @arsenal                10,751,513
+18. RC Celta                       @rccelta                 9,966,929
+19. Athletic Club                  @athleticclub            9,440,093
+20. Valencia CF                    @valenciacf              8,514,879
+
+================================================================================
+📊 STATISTICS
+================================================================================
+
+Total Followers: 675,089,839
+Average Followers: 6,081,890
+Median Followers: 975,460
+Highest: 68,693,675 (@realmadrid)
+Lowest: 2 (@losclive)

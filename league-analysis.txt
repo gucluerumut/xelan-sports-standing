@@ -1,0 +1,155 @@
+====================================================================================================
+COMPLETE LEAGUE ANALYSIS - ALL CLUBS BY FOLLOWERS
+====================================================================================================
+
+====================================================================================================
+Premier League - 19 clubs
+====================================================================================================
+Rank   Username                       Name                                     Followers       Verified
+----------------------------------------------------------------------------------------------------
+1      manchesterunited               Manchester United                        65,407,773      ✓
+2      mancity                        Manchester City                          56,252,141      ✓
+3      liverpoolfc                    Liverpool Football Club                  49,091,287      ✓
+4      chelseafc                      Chelsea FC                               44,156,443      ✓
+5      arsenal                        Arsenal                                  31,458,542      ✓
+6      spursofficial                  Tottenham Hotspur                        17,537,051      ✓
+7      lcfc                           Leicester City                           7,813,888       ✓
+8      westham                        West Ham United                          4,480,151       ✓
+9      avfcofficial                   Aston Villa                              4,385,173       ✓
+10     nufc                           Newcastle United                         3,365,911       ✓
+11     everton                        Everton                                  3,321,733       ✓
+12     wolves                         Wolves                                   3,066,554       ✓
+13     cpfc                           Crystal Palace Football Club             2,301,794       ✓
+14     officialbhafc                  Brighton & Hove Albion FC                2,168,918       ✓
+15     southamptonfc                  Southampton FC                           1,418,688       ✓
+16     fulhamfc                       Fulham Football Club                     1,317,278       ✓
+17     afcb                           AFC Bournemouth                          1,183,093       ✓
+18     brentfordfc                    Brentford Football Club                  851,555         ✓
+19     ipswichtown                    Ipswich Town FC                          611,725         ✓
+
+====================================================================================================
+La Liga - 17 clubs
+====================================================================================================
+Rank   Username                       Name                                     Followers       Verified
+----------------------------------------------------------------------------------------------------
+1      realmadrid                     Real Madrid C.F.                         180,116,798     ✓
+2      fcbarcelona                    FC Barcelona                             145,099,510     ✓
+3      atleticodemadrid               Atlético de Madrid                      17,944,385      ✓
+4      sevillafc                      Sevilla FC                               3,714,756       ✓
+5      realbetisbalompie              Real Betis Balompié                     2,914,452       ✓
+6      villarrealcf                   Villarreal CF                            1,713,086       ✓
+7      athleticclub                   Athletic Club                            1,661,775       ✓
+8      valenciacf                     Valencia CF 🦇💯                           1,401,488       ✓
+9      realsociedad                   Real Sociedad de Fútbol                 1,186,340       ✓
+10     gironafc                       Girona FC                                971,636         ✓
+11     realvalladolid                 Real Valladolid C.F.                     630,600         ✓
+12     rccelta                        Celta                                    628,717         ✓
+13     getafecf                       Getafe C.F.                              545,532         ✓
+14     rcdespanyol                    RCD Espanyol de Barcelona                536,457         ✓
+15     rcdmallorcaoficial             RCD Mallorca                             465,000         ✓
+16     cdleganes                      C.D. Leganés                            391,831         ✓
+17     deportivoalaves                Deportivo Alavés                        229,134         ✓
+
+====================================================================================================
+Süper Lig - 13 clubs
+====================================================================================================
+Rank   Username                       Name                                     Followers       Verified
+----------------------------------------------------------------------------------------------------
+1      galatasaray                    Galatasaray                              17,612,889      ✓
+2      fenerbahce                     Fenerbahçe                               11,444,054      ✓
+3      besiktas                       Beşiktaş JK                              7,612,583       ✓
+4      trabzonspor                    Trabzonspor                              1,465,043       ✓
+5      samsunspor                     Samsunspor                               400,386         ✓
+6      goztepe                        Göztepe Spor Kulübü                      360,949         ✓
+7      konyaspor                      TÜMOSAN Konyaspor                        309,857         ✓
+8      hatayspor                      Hatayspor                                244,084         ✓
+9      sivasspor                      Sivasspor                                221,725         ✓
+10     gaziantepfk                    Gaziantep FK                             218,940         ✓
+11     antalyaspor                    Antalyaspor                              182,218         ✓
+12     alanyaspor                     Corendon Alanyaspor 🌊☀️                  114,313         ✓
+13     pendikspor                     Pendikspor Kulübü                        64,557          ✓
+
+====================================================================================================
+Serie A - 18 clubs
+====================================================================================================
+Rank   Username                       Name                                     Followers       Verified
+----------------------------------------------------------------------------------------------------
+1      juventus                       Juventus                                 59,850,754      ✓
+2      acmilan                        AC Milan                                 18,169,547      ✓
+3      inter                          Inter                                    14,373,076      ✓
+4      officialasroma                 AS Roma                                  7,327,703       ✓
+5      acffiorentina                  ACF Fiorentina                           1,433,220       ✓
+6      official_sslazio               S.S. Lazio                               1,204,918       ✓
+7      atalantabc                     Atalanta B.C.                            1,180,389       ✓
+8      comofootball                   ComoFootball                             1,057,651       ✓
+9      parmacalcio1913                Parma Calcio 1913                        709,973         ✓
+10     bolognafc1909                  Bologna FC 1909                          620,878         ✓
+11     cagliaricalcio                 Cagliari Calcio                          541,973         ✓
+12     torinofc1906                   Torino Football Club                     494,786         ✓
+13     genoacfc                       Genoa Cfc                                481,732         ✓
+14     veneziafc                      Venezia FC                               437,627         ✓
+15     udinesecalcio                  Udinese Calcio                           427,490         ✓
+16     hellasveronafc                 Hellas Verona FC                         326,338         ✓
+17     acmonza                        AC Monza                                 303,556         ✓
+18     uslecce                        U.S. Lecce                               249,379         ✓
+
+====================================================================================================
+Bundesliga - 16 clubs
+====================================================================================================
+Rank   Username                       Name                                     Followers       Verified
+----------------------------------------------------------------------------------------------------
+1      fcbayern                       FC Bayern                                44,015,079      ✓
+2      bvb09                          Borussia Dortmund                        20,898,210      ✓
+3      bayer04fussball                Bayer 04 Leverkusen                      4,648,159       ✓
+4      rbleipzig                      RB Leipzig                               2,213,347       ✓
+5      eintrachtfrankfurt             Eintracht Frankfurt Official             1,345,002       ✓
+6      borussia                       Borussia Mönchengladbach | Bundesliga   1,230,443       ✓
+7      vfl.wolfsburg                  VfL Wolfsburg                            926,435         ✓
+8      vfb                            VfB Stuttgart 1893                       706,345         ✓
+9      scfreiburg                     SC Freiburg                              615,923         ✓
+10     werderbremen                   SV Werder Bremen                         577,845         ✓
+11     tsghoffenheim                  TSG Hoffenheim                           520,301         ✓
+12     fcstpauli                      FC St. Pauli                             454,395         ✓
+13     1fsvmainz05                    1. FSV Mainz 05                          337,896         ✓
+14     fcaugsburg1907                 FC Augsburg                              277,801         ✓
+15     vflbochum1848.official         VfL Bochum 1848                          167,610         ✓
+16     holsteinkiel                   Holstein Kiel                            129,679         ✓
+
+====================================================================================================
+Ligue 1 - 12 clubs
+====================================================================================================
+Rank   Username                       Name                                     Followers       Verified
+----------------------------------------------------------------------------------------------------
+1      psg                            Paris Saint-Germain                      65,722,865      ✓
+2      olympiquedemarseille           OM | Olympique de Marseille              3,834,695       ✓
+3      asmonaco                       AS Monaco 🇲🇨                             2,796,573       ✓
+4      ol                             Olympique Lyonnais                       2,618,444       ✓
+5      losclive                       LOSC                                     1,144,488       ✓
+6      ogcnice                        OGC Nice                                 816,735         ✓
+7      fcnantes                       FC Nantes                                609,335         ✓
+8      rcsa                           Racing Club de Strasbourg Alsace         590,145         ✓
+9      rclens                         Racing Club de Lens                      483,036         ✓
+10     asseofficiel                   AS Saint-Étienne                        452,806         ✓
+11     toulousefc                     Toulouse Football Club                   451,910         ✓
+12     hac_foot                       Havre Athletic Club ⚽️                   168,331         ✓
+
+====================================================================================================
+Other - 1 clubs
+====================================================================================================
+Rank   Username                       Name                                     Followers       Verified
+----------------------------------------------------------------------------------------------------
+1      kasimpasask                    Kasımpaşa SK                            92,564          ✓
+
+
+
+====================================================================================================
+SUMMARY
+====================================================================================================
+Premier League        19 clubs
+La Liga               17 clubs
+Süper Lig             13 clubs
+Serie A               18 clubs
+Bundesliga            16 clubs
+Ligue 1               12 clubs
+Other                  1 clubs
+TOTAL                 96 clubs

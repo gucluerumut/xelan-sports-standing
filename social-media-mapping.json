@@ -1,0 +1,87 @@
+{
+  "Manchester City": {
+    "instagram": "mancity",
+    "tiktok": "mancity",
+    "twitter": "ManCity"
+  },
+  "Arsenal": {
+    "instagram": "arsenal",
+    "tiktok": "arsenal",
+    "twitter": "Arsenal"
+  },
+  "Liverpool FC": {
+    "instagram": "liverpoolfc",
+    "tiktok": "liverpoolfc",
+    "twitter": "LFC"
+  },
+  "Manchester United": {
+    "instagram": "manchesterunited",
+    "tiktok": "manutd",
+    "twitter": "ManUtd"
+  },
+  "Chelsea FC": {
+    "instagram": "chelseafc",
+    "tiktok": "chelseafc",
+    "twitter": "ChelseaFC"
+  },
+  "Tottenham": {
+    "instagram": "spursofficial",
+    "tiktok": "spursofficial",
+    "twitter": "SpursOfficial"
+  },
+  "Newcastle United": {
+    "instagram": "nufc",
+    "tiktok": "nufc",
+    "twitter": "NUFC"
+  },
+  "Aston Villa": {
+    "instagram": "avfcofficial",
+    "tiktok": "avfcofficial",
+    "twitter": "AVFCOfficial"
+  },
+  "Brighton": {
+    "instagram": "officialbhafc",
+    "tiktok": "officialbhafc",
+    "twitter": "OfficialBHAFC"
+  },
+  "Wolves": {
+    "instagram": "wolves",
+    "tiktok": "wolves",
+    "twitter": "Wolves"
+  },
+  "West Ham": {
+    "instagram": "westham",
+    "tiktok": "westham",
+    "twitter": "WestHam"
+  },
+  "Crystal Palace": {
+    "instagram": "cpfc",
+    "tiktok": "cpfc",
+    "twitter": "CPFC"
+  },
+  "Fulham": {
+    "instagram": "fulhamfc",
+    "tiktok": "fulhamfc",
+    "twitter": "FulhamFC"
+  },
+  "Everton": {
+    "instagram": "everton",
+    "tiktok": "everton",
+    "twitter": "Everton"
+  },
+  "Brentford": {
+    "instagram": "brentfordfc",
+    "tiktok": "brentfordfc",
+    "twitter": "BrentfordFC"
+  },
+  "Nottingham Forest": {
+    "instagram": "nffc",
+    "tiktok": null,
+    "twitter": "NFFC"
+  },
+  "Bournemouth": {
+    "instagram": "afcbournemouth",
+    "tiktok": "afcbournemouth",
+    "twitter": "afcbournemouth"
+  }
+}

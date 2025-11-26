@@ -1,0 +1,118 @@
+.header {
+    text-align: center;
+    padding: var(--spacing-3xl) 0 var(--spacing-2xl);
+}
+
+.title {
+    font-size: 3rem;
+    margin-bottom: var(--spacing-md);
+    animation: fadeIn 0.8s ease-out;
+}
+
+.subtitle {
+    font-size: 1.125rem;
+    color: var(--color-text-muted);
+    margin: 0;
+    animation: fadeIn 1s ease-out;
+}
+
+.selectors {
+    display: flex;
+    align-items: flex-end;
+    gap: var(--spacing-xl);
+    margin: var(--spacing-3xl) 0;
+    padding: var(--spacing-2xl);
+    background: var(--color-bg-card);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-2xl);
+}
+
+.selectorGroup {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.label {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.select {
+    padding: var(--spacing-md) var(--spacing-lg);
+    background: var(--color-bg-secondary);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-md);
+    color: var(--color-text-primary);
+    font-size: 1rem;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.select:hover {
+    border-color: var(--color-primary);
+    background: var(--color-bg-card);
+}
+
+.select:focus {
+    outline: none;
+    border-color: var(--color-primary-light);
+    box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+}
+
+.select option {
+    background: var(--color-bg-secondary);
+    color: var(--color-text-primary);
+}
+
+.vs {
+    font-size: 1.5rem;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0 var(--spacing-md);
+    margin-bottom: var(--spacing-md);
+}
+
+.placeholder {
+    text-align: center;
+    padding: var(--spacing-3xl);
+    background: var(--color-bg-card);
+    border: 1px dashed var(--color-border);
+    border-radius: var(--radius-2xl);
+    margin: var(--spacing-2xl) 0;
+}
+
+.placeholder p {
+    color: var(--color-text-muted);
+    font-size: 1.125rem;
+}
+
+@media (max-width: 768px) {
+    .title {
+        font-size: 2rem;
+    }
+
+    .subtitle {
+        font-size: 1rem;
+    }
+
+    .selectors {
+        flex-direction: column;
+    }
+
+    .vs {
+        font-size: 1.25rem;
+        margin: 0;
+    }
+}

@@ -1,0 +1,185 @@
+.container {
+    background: var(--color-bg-card);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-2xl);
+    padding: var(--spacing-2xl);
+    margin: var(--spacing-2xl) 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: var(--spacing-xl);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.clubHeader {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    flex: 1;
+}
+
+.logoPlaceholder {
+    width: 80px;
+    height: 80px;
+    border-radius: var(--radius-xl);
+    background: var(--gradient-primary);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.5rem;
+    font-weight: 800;
+    color: white;
+    font-family: 'Outfit', sans-serif;
+    flex-shrink: 0;
+}
+
+.clubName {
+    font-size: 1.5rem;
+    margin: 0 0 var(--spacing-xs) 0;
+    color: var(--color-text-primary);
+}
+
+.league {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    margin: 0;
+}
+
+.vs {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    background: var(--gradient-primary);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    padding: 0 var(--spacing-lg);
+}
+
+.scoreComparison {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: var(--spacing-lg);
+    margin-bottom: var(--spacing-2xl);
+}
+
+.scoreBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-lg);
+    background: linear-gradient(135deg, rgba(102, 126, 234, 0.1) 0%, rgba(118, 75, 162, 0.1) 100%);
+    border-radius: var(--radius-xl);
+    border: 1px solid var(--color-border-light);
+}
+
+.scoreLabel {
+    font-size: 0.875rem;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    font-weight: 600;
+}
+
+.scoreValue {
+    font-size: 2rem;
+    font-weight: 800;
+    font-family: 'Outfit', sans-serif;
+    color: var(--color-primary-light);
+}
+
+.metrics {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-lg);
+}
+
+.metricRow {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.metricLabel {
+    font-size: 0.875rem;
+    font-weight: 600;
+    color: var(--color-text-secondary);
+    text-align: center;
+}
+
+.barContainer {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+}
+
+.value {
+    font-size: 0.875rem;
+    font-weight: 700;
+    color: var(--color-accent-light);
+    min-width: 80px;
+    text-align: center;
+}
+
+.bar {
+    flex: 1;
+    height: 32px;
+    background: var(--color-bg-secondary);
+    border-radius: var(--radius-md);
+    display: flex;
+    overflow: hidden;
+    border: 1px solid var(--color-border);
+}
+
+.barFill1 {
+    background: linear-gradient(90deg, #667eea 0%, #764ba2 100%);
+    transition: width var(--transition-slow);
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: var(--spacing-sm);
+}
+
+.barFill2 {
+    background: linear-gradient(90deg, #06b6d4 0%, #22d3ee 100%);
+    transition: width var(--transition-slow);
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: var(--spacing-sm);
+}
+
+@media (max-width: 768px) {
+    .header {
+        flex-direction: column;
+    }
+
+    .vs {
+        font-size: 1.5rem;
+    }
+
+    .scoreComparison {
+        grid-template-columns: 1fr;
+    }
+
+    .clubName {
+        font-size: 1.25rem;
+    }
+
+    .logoPlaceholder {
+        width: 60px;
+        height: 60px;
+        font-size: 1.25rem;
+    }
+
+    .value {
+        min-width: 60px;
+        font-size: 0.75rem;
+    }
+}

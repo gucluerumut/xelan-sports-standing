@@ -1,0 +1,151 @@
+{
+  "total_suspicious": 33,
+  "corrections_applied": [
+    {
+      "old": "nffc",
+      "new": "nottinghamforest",
+      "priority": true
+    },
+    {
+      "old": "goztepe",
+      "new": "goztepespor",
+      "priority": false
+    },
+    {
+      "old": "kayserisporfk",
+      "new": "kayserispor",
+      "priority": false
+    },
+    {
+      "old": "eyupsporkulubu",
+      "new": "eyupspor",
+      "priority": false
+    },
+    {
+      "old": "crizesporas",
+      "new": "rizespor",
+      "priority": false
+    },
+    {
+      "old": "officialasroma",
+      "new": "asroma",
+      "priority": true
+    },
+    {
+      "old": "comofootball",
+      "new": "como1907",
+      "priority": true
+    },
+    {
+      "old": "bolognafc1909",
+      "new": "bolognafc",
+      "priority": false
+    },
+    {
+      "old": "bvb09",
+      "new": "bvb",
+      "priority": true
+    },
+    {
+      "old": "bayer04fussball",
+      "new": "bayer04",
+      "priority": true
+    },
+    {
+      "old": "eintrachtfrankfurt",
+      "new": "eintracht",
+      "priority": false
+    },
+    {
+      "old": "vfbstuttgart",
+      "new": "vfb",
+      "priority": true
+    },
+    {
+      "old": "fcaugsburg1907",
+      "new": "fcaugsburg",
+      "priority": false
+    },
+    {
+      "old": "olympiquedemarseille",
+      "new": "om",
+      "priority": true
+    },
+    {
+      "old": "losclive",
+      "new": "losc",
+      "priority": true
+    },
+    {
+      "old": "stadebrestois29",
+      "new": "sb29",
+      "priority": false
+    },
+    {
+      "old": "angers_sco",
+      "new": "angerssco",
+      "priority": false
+    },
+    {
+      "old": "1fcunion",
+      "new": "fcunion1966",
+      "priority": false
+    },
+    {
+      "old": "fch1846",
+      "new": "fc.heidenheim",
+      "priority": false
+    }
+  ],
+  "no_correction_found": [
+    "rcdmallorca",
+    "besiktas",
+    "alanyaspor",
+    "kasimpasask",
+    "gaziantepfk",
+    "antalyaspor",
+    "genclerbirligi",
+    "fatihkaragumruk",
+    "kocaelispor",
+    "atalantabc",
+    "official_sslazio",
+    "hsv",
+    "ol",
+    "ajauxerre"
+  ],
+  "retry_usernames": [
+    "nottinghamforest",
+    "rcdmallorca",
+    "besiktas",
+    "goztepespor",
+    "alanyaspor",
+    "kasimpasask",
+    "gaziantepfk",
+    "antalyaspor",
+    "kayserispor",
+    "eyupspor",
+    "genclerbirligi",
+    "rizespor",
+    "fatihkaragumruk",
+    "kocaelispor",
+    "asroma",
+    "atalantabc",
+    "official_sslazio",
+    "como1907",
+    "bolognafc",
+    "bvb",
+    "bayer04",
+    "eintracht",
+    "vfb",
+    "fcaugsburg",
+    "hsv",
+    "om",
+    "ol",
+    "losc",
+    "sb29",
+    "angerssco",
+    "ajauxerre",
+    "fcunion1966",
+    "fc.heidenheim"
+  ]
+}

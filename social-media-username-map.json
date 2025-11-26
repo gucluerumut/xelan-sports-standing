@@ -1,0 +1,430 @@
+{
+  "nufc": {
+    "tiktok": "nufc",
+    "twitter": "NUFC"
+  },
+  "avfcofficial": {
+    "tiktok": "avfcofficial",
+    "twitter": "AVFCOfficial"
+  },
+  "officialbhafc": {
+    "tiktok": "officialbhafc",
+    "twitter": "OfficialBHAFC"
+  },
+  "wolves": {
+    "tiktok": "wolves",
+    "twitter": "Wolves"
+  },
+  "westham": {
+    "tiktok": "westham",
+    "twitter": "WestHam"
+  },
+  "cpfc": {
+    "tiktok": "cpfc",
+    "twitter": "CPFC"
+  },
+  "fulhamfc": {
+    "tiktok": "fulhamfc",
+    "twitter": "FulhamFC"
+  },
+  "everton": {
+    "tiktok": "everton",
+    "twitter": "Everton"
+  },
+  "brentfordfc": {
+    "tiktok": "brentfordfc",
+    "twitter": "BrentfordFC"
+  },
+  "nffc": {
+    "tiktok": "officialnffc",
+    "twitter": "NFFC"
+  },
+  "afcbournemouth": {
+    "tiktok": "afcbournemouth",
+    "twitter": "afcbournemouth"
+  },
+  "leedsunited": {
+    "tiktok": "leedsunited",
+    "twitter": "LUFC"
+  },
+  "burnleyofficial": {
+    "tiktok": "burnleyofficial",
+    "twitter": "BurnleyOfficial"
+  },
+  "sunderlandafc": {
+    "tiktok": "sunderlandafc",
+    "twitter": "SunderlandAFC"
+  },
+  "realmadrid": {
+    "tiktok": "realmadrid",
+    "twitter": "realmadrid"
+  },
+  "fcbarcelona": {
+    "tiktok": "fcbarcelona",
+    "twitter": "FCBarcelona"
+  },
+  "atleticodemadrid": {
+    "tiktok": "atleticodemadrid",
+    "twitter": "Atleti"
+  },
+  "realbe": {
+    "tiktok": "realbetisbalompie",
+    "twitter": "RealBetis"
+  },
+  "valenciacf": {
+    "tiktok": "valenciacf",
+    "twitter": "valenciacf"
+  },
+  "sevillafc": {
+    "tiktok": "sevillafc",
+    "twitter": "SevillaFC"
+  },
+  "athletic_club": {
+    "tiktok": "athleticclub",
+    "twitter": "AthleticClub"
+  },
+  "realsociedad": {
+    "tiktok": "realsociedad",
+    "twitter": "RealSociedad"
+  },
+  "villarrealcf": {
+    "tiktok": "villarrealcf",
+    "twitter": "VillarrealCF"
+  },
+  "rayovallecano": {
+    "tiktok": "rayovallecano",
+    "twitter": "RayoVallecano"
+  },
+  "getafecf": {
+    "tiktok": "getafecf",
+    "twitter": "GetafeCF"
+  },
+  "gironafc": {
+    "tiktok": "gironafc",
+    "twitter": "GironaFC"
+  },
+  "rcdmallorca": {
+    "tiktok": "realmallorcaoficial",
+    "twitter": "RCD_Mallorca"
+  },
+  "deportivoalaves": {
+    "tiktok": "deportivoalaves",
+    "twitter": "Alaves"
+  },
+  "rcdesp": {
+    "tiktok": "rcdesp",
+    "twitter": "RCDEspanyol"
+  },
+  "rccelta": {
+    "tiktok": "rccelta",
+    "twitter": "RCCelta"
+  },
+  "caosasuna": {
+    "tiktok": "caosasuna",
+    "twitter": "CAOsasuna"
+  },
+  "elchecf": {
+    "tiktok": "elchecf",
+    "twitter": "Elchecf_en"
+  },
+  "levanteud": {
+    "tiktok": "levanteud",
+    "twitter": "LevanteUD"
+  },
+  "realoviedosad": {
+    "tiktok": "realoviedosad",
+    "twitter": "RealOviedo"
+  },
+  "galatasaray": {
+    "tiktok": "galatasaray",
+    "twitter": "GalatasaraySK"
+  },
+  "fenerbahce": {
+    "tiktok": "fenerbahce",
+    "twitter": "Fenerbahce"
+  },
+  "besiktas": {
+    "tiktok": "besiktasjk",
+    "twitter": "Besiktas"
+  },
+  "trabzonspor": {
+    "tiktok": "trabzonspor",
+    "twitter": "Trabzonspor"
+  },
+  "basaksehirfk": {
+    "tiktok": "ibfk2014",
+    "twitter": "ibfk2014"
+  },
+  "samsunsporkulubu": {
+    "tiktok": "samsunsporkulubu",
+    "twitter": "SamsunSporKul"
+  },
+  "goztepe": {
+    "tiktok": "goztepesporkulubu",
+    "twitter": "Goztepe"
+  },
+  "konyaspor": {
+    "tiktok": "konyaspor",
+    "twitter": "konyaspor"
+  },
+  "alanyaspor": {
+    "tiktok": null,
+    "twitter": "Alanyaspor"
+  },
+  "antalyaspor": {
+    "tiktok": null,
+    "twitter": "Antalyaspor"
+  },
+  "gaziantepfk": {
+    "tiktok": null,
+    "twitter": "GaziantepFK"
+  },
+  "kasimpasask": {
+    "tiktok": null,
+    "twitter": "KasimpasaSK"
+  },
+  "kayserispor": {
+    "tiktok": "kysrtv",
+    "twitter": "Kayserispor"
+  },
+  "eyupspor": {
+    "tiktok": "ikaseyupspor",
+    "twitter": "Eyupspor"
+  },
+  "rizespor": {
+    "tiktok": "crizesporas",
+    "twitter": "Rizespor"
+  },
+  "fatihkaragumruk": {
+    "tiktok": null,
+    "twitter": "fkaragumruk"
+  },
+  "genclerbirligi": {
+    "tiktok": "genclerbirligisk",
+    "twitter": "Genclerbirligi"
+  },
+  "kocaelispor": {
+    "tiktok": null,
+    "twitter": "Kocaelispor"
+  },
+  "juventus": {
+    "tiktok": "juventus",
+    "twitter": "juventusfc"
+  },
+  "acmilan": {
+    "tiktok": "acmilan",
+    "twitter": "acmilan"
+  },
+  "inter": {
+    "tiktok": "inter",
+    "twitter": "Inter"
+  },
+  "sscnapoli": {
+    "tiktok": "sscnapoli",
+    "twitter": "sscnapoli"
+  },
+  "asroma": {
+    "tiktok": "asroma",
+    "twitter": "OfficialASRoma"
+  },
+  "acffiorentina": {
+    "tiktok": "acffiorentina",
+    "twitter": "acffiorentina"
+  },
+  "sslazio": {
+    "tiktok": "sslazio",
+    "twitter": "OfficialSSLazio"
+  },
+  "atalantabc": {
+    "tiktok": "atalanta_be",
+    "twitter": "Atalanta_BC"
+  },
+  "como1907": {
+    "tiktok": "comofootball1907",
+    "twitter": "Como_1907"
+  },
+  "parmacalcio1913": {
+    "tiktok": "parmacalcio1913",
+    "twitter": "1913parmacalcio"
+  },
+  "bolognafc1909": {
+    "tiktok": "bolobolognafootballclub",
+    "twitter": "BfcOfficialPage"
+  },
+  "cagliaricalcio": {
+    "tiktok": "cagliaricalcio",
+    "twitter": "CagliariCalcio"
+  },
+  "torinofc_1906": {
+    "tiktok": "torinofc_1906",
+    "twitter": "TorinoFC_1906"
+  },
+  "genoac": {
+    "tiktok": "genoac",
+    "twitter": "GenoaCFC"
+  },
+  "udinese_1896": {
+    "tiktok": "udinese_1896",
+    "twitter": "Udinese_1896"
+  },
+  "hellasveronaf": {
+    "tiktok": "hellasveronaf",
+    "twitter": "HellasVeronaFC"
+  },
+  "uslecce": {
+    "tiktok": "uslecce",
+    "twitter": "OfficialUSLecce"
+  },
+  "sassuolous": {
+    "tiktok": "sassuolous",
+    "twitter": "SassuoloUS"
+  },
+  "pisasportingclub": {
+    "tiktok": "pisasportingclub",
+    "twitter": "PisaSC"
+  },
+  "uscremonese": {
+    "tiktok": "uscremonese",
+    "twitter": "USCremonese"
+  },
+  "fcbayern": {
+    "tiktok": "fcbayern",
+    "twitter": "FCBayern"
+  },
+  "bvb09": {
+    "tiktok": "bvb",
+    "twitter": "BVB"
+  },
+  "bayer04fussball": {
+    "tiktok": "bayer04",
+    "twitter": "bayer04fussball"
+  },
+  "dierotenbullen": {
+    "tiktok": "dierotenbullen",
+    "twitter": "RBLeipzig"
+  },
+  "eintracht": {
+    "tiktok": "eintracht",
+    "twitter": "Eintracht"
+  },
+  "borussia": {
+    "tiktok": "borussia",
+    "twitter": "borussia"
+  },
+  "vfl_wolfsburg": {
+    "tiktok": "vfl_wolfsburg",
+    "twitter": "VfL_Wolfsburg"
+  },
+  "vfb": {
+    "tiktok": "vfb",
+    "twitter": "VfB"
+  },
+  "scfreiburg": {
+    "tiktok": "scfreiburg",
+    "twitter": "scfreiburg"
+  },
+  "werderbremen": {
+    "tiktok": "werderbremen",
+    "twitter": "werderbremen"
+  },
+  "tsg_1899_hoffenheim": {
+    "tiktok": "tsg_1899_hoffenheim",
+    "twitter": "achtzehn99"
+  },
+  "fcstpauli": {
+    "tiktok": "fcstpauli",
+    "twitter": "fcstpauli"
+  },
+  "1fsv_mainz_05": {
+    "tiktok": "1fsv_mainz_05",
+    "twitter": "Mainz05"
+  },
+  "fcaugsburg": {
+    "tiktok": "fcaugsburg",
+    "twitter": "FCAugsburg"
+  },
+  "1_fc_union_berlin": {
+    "tiktok": "fcunion",
+    "twitter": "fcunion"
+  },
+  "1_fc_heidenheim": {
+    "tiktok": "fch_achtzehn_46",
+    "twitter": "FCH1846"
+  },
+  "hsv": {
+    "tiktok": "hsv_official",
+    "twitter": "HSV"
+  },
+  "effzeh": {
+    "tiktok": "effzeh",
+    "twitter": "fckoeln"
+  },
+  "psg": {
+    "tiktok": "psg",
+    "twitter": "PSG_inside"
+  },
+  "olympiquedemarseille": {
+    "tiktok": "om",
+    "twitter": "OM_Officiel"
+  },
+  "asmonaco": {
+    "tiktok": "asmonaco",
+    "twitter": "AS_Monaco"
+  },
+  "ol": {
+    "tiktok": "ol_officiel",
+    "twitter": "OL"
+  },
+  "losc": {
+    "tiktok": "losc",
+    "twitter": "losclive"
+  },
+  "ogcnice": {
+    "tiktok": "ogcnice",
+    "twitter": "ogcnice"
+  },
+  "fcnantes": {
+    "tiktok": "fcnantes",
+    "twitter": "FCNantes"
+  },
+  "rcsaofficiel": {
+    "tiktok": "rcsaofficiel",
+    "twitter": "RCSA"
+  },
+  "rclens": {
+    "tiktok": "rclens",
+    "twitter": "RCLens"
+  },
+  "toulousefc": {
+    "tiktok": "toulousefc",
+    "twitter": "ToulouseFC"
+  },
+  "staderennaisfc": {
+    "tiktok": "staderennaisfc",
+    "twitter": "staderennais"
+  },
+  "sb29": {
+    "tiktok": "stadebrestois",
+    "twitter": "SB29"
+  },
+  "angerssco": {
+    "tiktok": "angerssco",
+    "twitter": "AngersSCO"
+  },
+  "ajauxerre": {
+    "tiktok": "ajauxerre.officiel",
+    "twitter": "AJA"
+  },
+  "fclorient": {
+    "tiktok": "fclorient",
+    "twitter": "FCLorient"
+  },
+  "parisfootballclub": {
+    "tiktok": "parisfootballclub",
+    "twitter": "ParisFC"
+  },
+  "fcmetz": {
+    "tiktok": "fcmetz",
+    "twitter": "FCMetz"
+  }
+}

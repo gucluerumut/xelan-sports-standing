@@ -1,0 +1,336 @@
+{
+  "collected_at": "2025-11-24",
+  "source": "improved_ocr",
+  "total_profiles": 113,
+  "successful": 23,
+  "suspicious": 8,
+  "failed": 82,
+  "data": [
+    {
+      "handle": "AVFCOfficial",
+      "name": "",
+      "followers": 2400000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/AVFCOfficial.png"
+    },
+    {
+      "handle": "AthleticClub",
+      "name": "",
+      "followers": 1000000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/AthleticClub.png"
+    },
+    {
+      "handle": "Atleti",
+      "name": "",
+      "followers": 5300000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/Atleti.png"
+    },
+    {
+      "handle": "Besiktas",
+      "name": "",
+      "followers": 61000000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/Besiktas.png"
+    },
+    {
+      "handle": "ChelseaFC",
+      "name": "",
+      "followers": 25700000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/ChelseaFC.png"
+    },
+    {
+      "handle": "Everton",
+      "name": "",
+      "followers": 2900000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/Everton.png"
+    },
+    {
+      "handle": "FCBarcelona",
+      "name": "",
+      "followers": 48000000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/FCBarcelona.png"
+    },
+    {
+      "handle": "FCBayern",
+      "name": "",
+      "followers": 6700000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/FCBayern.png"
+    },
+    {
+      "handle": "Fenerbahce",
+      "name": "",
+      "followers": 13200000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/Fenerbahce.png"
+    },
+    {
+      "handle": "GalatasaraySK",
+      "name": "",
+      "followers": 15600000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/GalatasaraySK.png"
+    },
+    {
+      "handle": "LFC",
+      "name": "",
+      "followers": 24500000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/LFC.png"
+    },
+    {
+      "handle": "ManCity",
+      "name": "",
+      "followers": 17800000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/ManCity.png"
+    },
+    {
+      "handle": "ManUtd",
+      "name": "",
+      "followers": 38300000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/ManUtd.png"
+    },
+    {
+      "handle": "NUFC",
+      "name": "",
+      "followers": 2800000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/NUFC.png"
+    },
+    {
+      "handle": "OM_Officiel",
+      "name": "",
+      "followers": 4099999,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/OM_Officiel.png"
+    },
+    {
+      "handle": "RealBetis",
+      "name": "",
+      "followers": 1000000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/RealBetis.png"
+    },
+    {
+      "handle": "SevillaFC",
+      "name": "",
+      "followers": 4099999,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/SevillaFC.png"
+    },
+    {
+      "handle": "SpursOfficial",
+      "name": "",
+      "followers": 8800000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/SpursOfficial.png"
+    },
+    {
+      "handle": "SunderlandAFC",
+      "name": "",
+      "followers": 1000000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/SunderlandAFC.png"
+    },
+    {
+      "handle": "Trabzonspor",
+      "name": "",
+      "followers": 2000000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/Trabzonspor.png"
+    },
+    {
+      "handle": "Wolves",
+      "name": "",
+      "followers": 4200000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/Wolves.png"
+    },
+    {
+      "handle": "juventusfc",
+      "name": "",
+      "followers": 9700000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/juventusfc.png"
+    },
+    {
+      "handle": "sscnapoli",
+      "name": "",
+      "followers": 2000000,
+      "following": 0,
+      "verified": false,
+      "screenshot": "twitter-screenshots/sscnapoli.png"
+    }
+  ],
+  "suspicious_data": [
+    {
+      "handle": "Antalyaspor",
+      "followers": 228,
+      "reason": "Very low for a football club: 228",
+      "raw_text": "228,68 ",
+      "screenshot": "twitter-screenshots/Antalyaspor.png"
+    },
+    {
+      "handle": "BVB",
+      "followers": 4200000,
+      "reason": "Big club with only 4,200,000 followers",
+      "raw_text": "4,2 Mn",
+      "screenshot": "twitter-screenshots/BVB.png"
+    },
+    {
+      "handle": "BrentfordFC",
+      "followers": 391,
+      "reason": "Very low for a football club: 391",
+      "raw_text": "391,98 ",
+      "screenshot": "twitter-screenshots/BrentfordFC.png"
+    },
+    {
+      "handle": "Elchecf_en",
+      "followers": 3719,
+      "reason": "Very low for a football club: 3,719",
+      "raw_text": "3.719 ",
+      "screenshot": "twitter-screenshots/Elchecf_en.png"
+    },
+    {
+      "handle": "Inter",
+      "followers": 2900000,
+      "reason": "Big club with only 2,900,000 followers",
+      "raw_text": "2,9 Mn",
+      "screenshot": "twitter-screenshots/Inter.png"
+    },
+    {
+      "handle": "TorinoFC_1906",
+      "followers": 431,
+      "reason": "Very low for a football club: 431",
+      "raw_text": "431 ",
+      "screenshot": "twitter-screenshots/TorinoFC_1906.png"
+    },
+    {
+      "handle": "VfL_Wolfsburg",
+      "followers": 280,
+      "reason": "Very low for a football club: 280",
+      "raw_text": "280,58 ",
+      "screenshot": "twitter-screenshots/VfL_Wolfsburg.png"
+    },
+    {
+      "handle": "werderbremen",
+      "followers": 503,
+      "reason": "Very low for a football club: 503",
+      "raw_text": "503,58 ",
+      "screenshot": "twitter-screenshots/werderbremen.png"
+    }
+  ],
+  "failed_handles": [
+    "1913parmacalcio",
+    "AJA",
+    "AS_Monaco",
+    "Alanyaspor",
+    "Alaves",
+    "AngersSCO",
+    "Arsenal",
+    "Atalanta_BC",
+    "BfcOfficialPage",
+    "BurnleyOfficial",
+    "CAOsasuna",
+    "CPFC",
+    "CagliariCalcio",
+    "Como_1907",
+    "Eintracht",
+    "Eyupspor",
+    "FCAugsburg",
+    "FCH1846",
+    "FCLorient",
+    "FCMetz",
+    "FCNantes",
+    "FulhamFC",
+    "GaziantepFK",
+    "Genclerbirligi",
+    "GenoaCFC",
+    "GetafeCF",
+    "GironaFC",
+    "Goztepe",
+    "HSV",
+    "HellasVeronaFC",
+    "KasimpasaSK",
+    "Kayserispor",
+    "Kocaelispor",
+    "LUFC",
+    "LevanteUD",
+    "Mainz05",
+    "NFFC",
+    "OL",
+    "OfficialASRoma",
+    "OfficialBHAFC",
+    "OfficialSSLazio",
+    "OfficialUSLecce",
+    "PSG_inside",
+    "ParisFC",
+    "PisaSC",
+    "RBLeipzig",
+    "RCCelta",
+    "RCDEspanyol",
+    "RCD_Mallorca",
+    "RCLens",
+    "RCSA",
+    "RayoVallecano",
+    "RealOviedo",
+    "RealSociedad",
+    "Rizespor",
+    "SB29",
+    "SamsunSporKul",
+    "SassuoloUS",
+    "ToulouseFC",
+    "USCremonese",
+    "Udinese_1896",
+    "VfB",
+    "VillarrealCF",
+    "WestHam",
+    "acffiorentina",
+    "achtzehn99",
+    "acmilan",
+    "afcbournemouth",
+    "bayer04fussball",
+    "borussia",
+    "fckoeln",
+    "fcstpauli",
+    "fcunion",
+    "fkaragumruk",
+    "ibfk2014",
+    "konyaspor",
+    "losclive",
+    "ogcnice",
+    "realmadrid",
+    "scfreiburg",
+    "staderennais",
+    "valenciacf"
+  ]
+}

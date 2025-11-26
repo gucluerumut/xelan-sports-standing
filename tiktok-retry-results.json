@@ -1,0 +1,169 @@
+{
+  "collected_at": "2025-11-24T04:15:20.602646",
+  "source": "apify:xtdata~tiktok-user-information-scraper",
+  "total_requested": 33,
+  "total_collected": 31,
+  "successful": [
+    {
+      "username": "asroma",
+      "followers": 16135907,
+      "nickname": "AS Roma"
+    },
+    {
+      "username": "bvb",
+      "followers": 17813981,
+      "nickname": "Borussia Dortmund"
+    },
+    {
+      "username": "bayer04",
+      "followers": 5206940,
+      "nickname": "bayer04"
+    },
+    {
+      "username": "eintracht",
+      "followers": 1729565,
+      "nickname": "Eintracht Frankfurt"
+    },
+    {
+      "username": "vfb",
+      "followers": 370196,
+      "nickname": "VfB Stuttgart 1893"
+    },
+    {
+      "username": "fcaugsburg",
+      "followers": 256664,
+      "nickname": "FC Augsburg"
+    },
+    {
+      "username": "om",
+      "followers": 5471685,
+      "nickname": "Olympique de Marseille"
+    },
+    {
+      "username": "losc",
+      "followers": 3274128,
+      "nickname": "LOSC"
+    },
+    {
+      "username": "angerssco",
+      "followers": 150147,
+      "nickname": "Angers SCO"
+    }
+  ],
+  "still_suspicious": [
+    {
+      "username": "nottinghamforest",
+      "followers": 5,
+      "nickname": "user01684321850"
+    },
+    {
+      "username": "goztepespor",
+      "followers": 1,
+      "nickname": "user3517706786102"
+    },
+    {
+      "username": "rcdmallorca",
+      "followers": 5,
+      "nickname": "RCD Mallorca"
+    },
+    {
+      "username": "besiktas",
+      "followers": 2414,
+      "nickname": "beşiktaş"
+    },
+    {
+      "username": "kasimpasask",
+      "followers": 222,
+      "nickname": "user20294421905"
+    },
+    {
+      "username": "alanyaspor",
+      "followers": 5,
+      "nickname": "eren.yardmc"
+    },
+    {
+      "username": "gaziantepfk",
+      "followers": 3,
+      "nickname": "gaziantepfk"
+    },
+    {
+      "username": "antalyaspor",
+      "followers": 23,
+      "nickname": "antalyaspor#"
+    },
+    {
+      "username": "eyupspor",
+      "followers": 0,
+      "nickname": "eyupcanbudak"
+    },
+    {
+      "username": "kayserispor",
+      "followers": 111,
+      "nickname": "Kayserispor"
+    },
+    {
+      "username": "genclerbirligi",
+      "followers": 193,
+      "nickname": "Gençlerbirliği"
+    },
+    {
+      "username": "rizespor",
+      "followers": 1802,
+      "nickname": "metin"
+    },
+    {
+      "username": "fatihkaragumruk",
+      "followers": 3,
+      "nickname": "ozmenalicann"
+    },
+    {
+      "username": "kocaelispor",
+      "followers": 10,
+      "nickname": "user127031"
+    },
+    {
+      "username": "atalantabc",
+      "followers": 1046,
+      "nickname": "Atalantabc"
+    },
+    {
+      "username": "official_sslazio",
+      "followers": 997,
+      "nickname": "s.s. lazio"
+    },
+    {
+      "username": "como1907",
+      "followers": 3,
+      "nickname": "Carmine Vale Lione"
+    },
+    {
+      "username": "hsv",
+      "followers": 200,
+      "nickname": "."
+    },
+    {
+      "username": "ol",
+      "followers": 497,
+      "nickname": "o"
+    },
+    {
+      "username": "sb29",
+      "followers": 6,
+      "nickname": "sb"
+    },
+    {
+      "username": "ajauxerre",
+      "followers": 5,
+      "nickname": "user3592128223623"
+    },
+    {
+      "username": "fc.heidenheim",
+      "followers": 993,
+      "nickname": "LUKAS🗣🤟🏼"
+    }
+  ],
+  "missing": [
+    "bolognafc",
+    "fcunion1966"
+  ]
+}

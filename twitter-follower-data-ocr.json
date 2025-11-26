@@ -1,0 +1,465 @@
+{
+  "collected_at": "2025-11-24",
+  "source": "ocr_from_screenshots",
+  "total_profiles": 113,
+  "successful": 76,
+  "failed": 37,
+  "data": [
+    {
+      "handle": "1913parmacalcio",
+      "followers": 73700000000,
+      "raw_text": "73,7 B",
+      "screenshot": "twitter-screenshots/1913parmacalcio.png"
+    },
+    {
+      "handle": "AJA",
+      "followers": 119900000000,
+      "raw_text": "119,9B",
+      "screenshot": "twitter-screenshots/AJA.png"
+    },
+    {
+      "handle": "AVFCOfficial",
+      "followers": 2400000,
+      "raw_text": "2,4 Mn",
+      "screenshot": "twitter-screenshots/AVFCOfficial.png"
+    },
+    {
+      "handle": "Alanyaspor",
+      "followers": 68900000000,
+      "raw_text": "68,9 B",
+      "screenshot": "twitter-screenshots/Alanyaspor.png"
+    },
+    {
+      "handle": "Alaves",
+      "followers": 248400000000,
+      "raw_text": "248,4B",
+      "screenshot": "twitter-screenshots/Alaves.png"
+    },
+    {
+      "handle": "AngersSCO",
+      "followers": 170800000000,
+      "raw_text": "170,8 B",
+      "screenshot": "twitter-screenshots/AngersSCO.png"
+    },
+    {
+      "handle": "Antalyaspor",
+      "followers": 228,
+      "raw_text": "228,68 ",
+      "screenshot": "twitter-screenshots/Antalyaspor.png"
+    },
+    {
+      "handle": "Atalanta_BC",
+      "followers": 482900000000,
+      "raw_text": "482,9B",
+      "screenshot": "twitter-screenshots/Atalanta_BC.png"
+    },
+    {
+      "handle": "AthleticClub",
+      "followers": 1000000,
+      "raw_text": "1M",
+      "screenshot": "twitter-screenshots/AthleticClub.png"
+    },
+    {
+      "handle": "Atleti",
+      "followers": 5300000,
+      "raw_text": "5,3Mn",
+      "screenshot": "twitter-screenshots/Atleti.png"
+    },
+    {
+      "handle": "BVB",
+      "followers": 4200000,
+      "raw_text": "4,2 Mn",
+      "screenshot": "twitter-screenshots/BVB.png"
+    },
+    {
+      "handle": "Besiktas",
+      "followers": 61000000,
+      "raw_text": "61 Mn",
+      "screenshot": "twitter-screenshots/Besiktas.png"
+    },
+    {
+      "handle": "BrentfordFC",
+      "followers": 391,
+      "raw_text": "391,98 ",
+      "screenshot": "twitter-screenshots/BrentfordFC.png"
+    },
+    {
+      "handle": "BurnleyOfficial",
+      "followers": 819900000000,
+      "raw_text": "819,9 B",
+      "screenshot": "twitter-screenshots/BurnleyOfficial.png"
+    },
+    {
+      "handle": "CagliariCalcio",
+      "followers": 377400000000,
+      "raw_text": "377,4B",
+      "screenshot": "twitter-screenshots/CagliariCalcio.png"
+    },
+    {
+      "handle": "ChelseaFC",
+      "followers": 25700000,
+      "raw_text": "25,7 Mn",
+      "screenshot": "twitter-screenshots/ChelseaFC.png"
+    },
+    {
+      "handle": "Como_1907",
+      "followers": 60700000000,
+      "raw_text": "60,7 B",
+      "screenshot": "twitter-screenshots/Como_1907.png"
+    },
+    {
+      "handle": "Elchecf_en",
+      "followers": 3,
+      "raw_text": "3.719 ",
+      "screenshot": "twitter-screenshots/Elchecf_en.png"
+    },
+    {
+      "handle": "Everton",
+      "followers": 2900000,
+      "raw_text": "2,9 Mn",
+      "screenshot": "twitter-screenshots/Everton.png"
+    },
+    {
+      "handle": "FCBarcelona",
+      "followers": 48000000,
+      "raw_text": "48Mn",
+      "screenshot": "twitter-screenshots/FCBarcelona.png"
+    },
+    {
+      "handle": "FCBayern",
+      "followers": 6700000,
+      "raw_text": "6,7 Mn",
+      "screenshot": "twitter-screenshots/FCBayern.png"
+    },
+    {
+      "handle": "FCH1846",
+      "followers": 41,
+      "raw_text": "41,8 ",
+      "screenshot": "twitter-screenshots/FCH1846.png"
+    },
+    {
+      "handle": "FCLorient",
+      "followers": 301400000000,
+      "raw_text": "301,4B",
+      "screenshot": "twitter-screenshots/FCLorient.png"
+    },
+    {
+      "handle": "Fenerbahce",
+      "followers": 13200000,
+      "raw_text": "13,2 Mn",
+      "screenshot": "twitter-screenshots/Fenerbahce.png"
+    },
+    {
+      "handle": "GalatasaraySK",
+      "followers": 15600000,
+      "raw_text": "15,6 Mn",
+      "screenshot": "twitter-screenshots/GalatasaraySK.png"
+    },
+    {
+      "handle": "GaziantepFK",
+      "followers": 105100000000,
+      "raw_text": "105,1B",
+      "screenshot": "twitter-screenshots/GaziantepFK.png"
+    },
+    {
+      "handle": "Genclerbirligi",
+      "followers": 16,
+      "raw_text": "16 ",
+      "screenshot": "twitter-screenshots/Genclerbirligi.png"
+    },
+    {
+      "handle": "GetafeCF",
+      "followers": 22300000000,
+      "raw_text": "22,3 B",
+      "screenshot": "twitter-screenshots/GetafeCF.png"
+    },
+    {
+      "handle": "GironaFC",
+      "followers": 355300000000,
+      "raw_text": "355,3B",
+      "screenshot": "twitter-screenshots/GironaFC.png"
+    },
+    {
+      "handle": "Goztepe",
+      "followers": 2778000000000,
+      "raw_text": "277,8.B",
+      "screenshot": "twitter-screenshots/Goztepe.png"
+    },
+    {
+      "handle": "HSV",
+      "followers": 686000000000,
+      "raw_text": "686 B",
+      "screenshot": "twitter-screenshots/HSV.png"
+    },
+    {
+      "handle": "HellasVeronaFC",
+      "followers": 259600000000,
+      "raw_text": "259,6 B",
+      "screenshot": "twitter-screenshots/HellasVeronaFC.png"
+    },
+    {
+      "handle": "Inter",
+      "followers": 2900000,
+      "raw_text": "2,9 Mn",
+      "screenshot": "twitter-screenshots/Inter.png"
+    },
+    {
+      "handle": "Kocaelispor",
+      "followers": 93000000000,
+      "raw_text": "93 B",
+      "screenshot": "twitter-screenshots/Kocaelispor.png"
+    },
+    {
+      "handle": "LFC",
+      "followers": 24500000,
+      "raw_text": "24,5Mn",
+      "screenshot": "twitter-screenshots/LFC.png"
+    },
+    {
+      "handle": "LevanteUD",
+      "followers": 431600000000,
+      "raw_text": "431,6 B",
+      "screenshot": "twitter-screenshots/LevanteUD.png"
+    },
+    {
+      "handle": "Mainz05",
+      "followers": 26,
+      "raw_text": "26 ",
+      "screenshot": "twitter-screenshots/Mainz05.png"
+    },
+    {
+      "handle": "ManCity",
+      "followers": 17800000,
+      "raw_text": "17,8Mn",
+      "screenshot": "twitter-screenshots/ManCity.png"
+    },
+    {
+      "handle": "ManUtd",
+      "followers": 38300000,
+      "raw_text": "38,3 Mn",
+      "screenshot": "twitter-screenshots/ManUtd.png"
+    },
+    {
+      "handle": "NUFC",
+      "followers": 2800000,
+      "raw_text": "2,8Mn",
+      "screenshot": "twitter-screenshots/NUFC.png"
+    },
+    {
+      "handle": "OM_Officiel",
+      "followers": 4099999,
+      "raw_text": "4,1 Mn",
+      "screenshot": "twitter-screenshots/OM_Officiel.png"
+    },
+    {
+      "handle": "OfficialSSLazio",
+      "followers": 6511000000000,
+      "raw_text": "6511 B",
+      "screenshot": "twitter-screenshots/OfficialSSLazio.png"
+    },
+    {
+      "handle": "OfficialUSLecce",
+      "followers": 32500000000,
+      "raw_text": "32,5 B",
+      "screenshot": "twitter-screenshots/OfficialUSLecce.png"
+    },
+    {
+      "handle": "ParisFC",
+      "followers": 73400000000,
+      "raw_text": "73,4B",
+      "screenshot": "twitter-screenshots/ParisFC.png"
+    },
+    {
+      "handle": "PisaSC",
+      "followers": 17100000000,
+      "raw_text": "17,1 B",
+      "screenshot": "twitter-screenshots/PisaSC.png"
+    },
+    {
+      "handle": "RBLeipzig",
+      "followers": 284600000000,
+      "raw_text": "284,6B",
+      "screenshot": "twitter-screenshots/RBLeipzig.png"
+    },
+    {
+      "handle": "RCCelta",
+      "followers": 525500000000,
+      "raw_text": "525,5B",
+      "screenshot": "twitter-screenshots/RCCelta.png"
+    },
+    {
+      "handle": "RCD_Mallorca",
+      "followers": 3614000000000,
+      "raw_text": "3614 B",
+      "screenshot": "twitter-screenshots/RCD_Mallorca.png"
+    },
+    {
+      "handle": "RCLens",
+      "followers": 382300000000,
+      "raw_text": "382,3B",
+      "screenshot": "twitter-screenshots/RCLens.png"
+    },
+    {
+      "handle": "RCSA",
+      "followers": 234800000000,
+      "raw_text": "234,8B",
+      "screenshot": "twitter-screenshots/RCSA.png"
+    },
+    {
+      "handle": "RealBetis",
+      "followers": 1000000,
+      "raw_text": "1Mn",
+      "screenshot": "twitter-screenshots/RealBetis.png"
+    },
+    {
+      "handle": "RealOviedo",
+      "followers": 348700000000,
+      "raw_text": "348,7B",
+      "screenshot": "twitter-screenshots/RealOviedo.png"
+    },
+    {
+      "handle": "RealSociedad",
+      "followers": 734100000000,
+      "raw_text": "734,1B",
+      "screenshot": "twitter-screenshots/RealSociedad.png"
+    },
+    {
+      "handle": "Rizespor",
+      "followers": 18,
+      "raw_text": "18 ",
+      "screenshot": "twitter-screenshots/Rizespor.png"
+    },
+    {
+      "handle": "SB29",
+      "followers": 158100000000,
+      "raw_text": "158,1B",
+      "screenshot": "twitter-screenshots/SB29.png"
+    },
+    {
+      "handle": "SassuoloUS",
+      "followers": 291600000000,
+      "raw_text": "291,6 B",
+      "screenshot": "twitter-screenshots/SassuoloUS.png"
+    },
+    {
+      "handle": "SevillaFC",
+      "followers": 4099999,
+      "raw_text": "4,1Mn",
+      "screenshot": "twitter-screenshots/SevillaFC.png"
+    },
+    {
+      "handle": "SpursOfficial",
+      "followers": 8800000,
+      "raw_text": "8,8Mn",
+      "screenshot": "twitter-screenshots/SpursOfficial.png"
+    },
+    {
+      "handle": "SunderlandAFC",
+      "followers": 1000000,
+      "raw_text": "1Mn",
+      "screenshot": "twitter-screenshots/SunderlandAFC.png"
+    },
+    {
+      "handle": "TorinoFC_1906",
+      "followers": 431,
+      "raw_text": "431 ",
+      "screenshot": "twitter-screenshots/TorinoFC_1906.png"
+    },
+    {
+      "handle": "ToulouseFC",
+      "followers": 468300000000,
+      "raw_text": "468,3B",
+      "screenshot": "twitter-screenshots/ToulouseFC.png"
+    },
+    {
+      "handle": "Trabzonspor",
+      "followers": 2000000,
+      "raw_text": "2M",
+      "screenshot": "twitter-screenshots/Trabzonspor.png"
+    },
+    {
+      "handle": "USCremonese",
+      "followers": 35,
+      "raw_text": "35,6 ",
+      "screenshot": "twitter-screenshots/USCremonese.png"
+    },
+    {
+      "handle": "Udinese_1896",
+      "followers": 301800000000,
+      "raw_text": "301,8B",
+      "screenshot": "twitter-screenshots/Udinese_1896.png"
+    },
+    {
+      "handle": "VfL_Wolfsburg",
+      "followers": 280,
+      "raw_text": "280,58 ",
+      "screenshot": "twitter-screenshots/VfL_Wolfsburg.png"
+    },
+    {
+      "handle": "Wolves",
+      "followers": 4200000,
+      "raw_text": "4,2Mn",
+      "screenshot": "twitter-screenshots/Wolves.png"
+    },
+    {
+      "handle": "afcbournemouth",
+      "followers": 736500000000,
+      "raw_text": "736,5B",
+      "screenshot": "twitter-screenshots/afcbournemouth.png"
+    },
+    {
+      "handle": "bayer04fussball",
+      "followers": 497700000000,
+      "raw_text": "497,7 B",
+      "screenshot": "twitter-screenshots/bayer04fussball.png"
+    },
+    {
+      "handle": "borussia",
+      "followers": 510600000000,
+      "raw_text": "510,6 B",
+      "screenshot": "twitter-screenshots/borussia.png"
+    },
+    {
+      "handle": "juventusfc",
+      "followers": 9700000,
+      "raw_text": "9,7 Mn",
+      "screenshot": "twitter-screenshots/juventusfc.png"
+    },
+    {
+      "handle": "konyaspor",
+      "followers": 303100000000,
+      "raw_text": "303,1B",
+      "screenshot": "twitter-screenshots/konyaspor.png"
+    },
+    {
+      "handle": "losclive",
+      "followers": 866500000000,
+      "raw_text": "866,5 B",
+      "screenshot": "twitter-screenshots/losclive.png"
+    },
+    {
+      "handle": "scfreiburg",
+      "followers": 288700000000,
+      "raw_text": "288,7B",
+      "screenshot": "twitter-screenshots/scfreiburg.png"
+    },
+    {
+      "handle": "sscnapoli",
+      "followers": 2000000,
+      "raw_text": "2Mn",
+      "screenshot": "twitter-screenshots/sscnapoli.png"
+    },
+    {
+      "handle": "staderennais",
+      "followers": 456000000000,
+      "raw_text": "456 B",
+      "screenshot": "twitter-screenshots/staderennais.png"
+    },
+    {
+      "handle": "werderbremen",
+      "followers": 503,
+      "raw_text": "503,58 ",
+      "screenshot": "twitter-screenshots/werderbremen.png"
+    }
+  ]
+}

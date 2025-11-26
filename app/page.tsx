@@ -1,66 +1,84 @@
-import Image from "next/image";
-import styles from "./page.module.css";
+import Link from 'next/link';
+import { LEAGUES } from '@/lib/types';
+import { fetchLeagueStandings } from '@/lib/apify-service';
+import LeagueSelector from '@/components/LeagueSelector';
+import StandingsTable from '@/components/StandingsTable';
+import styles from './page.module.css';
 
-export default function Home() {
+export default async function Home() {
+  // Fetch top 5 clubs for each league
+  const premierLeagueClubs = await fetchLeagueStandings('premier-league');
+  const laLigaClubs = await fetchLeagueStandings('la-liga');
+  const superLigClubs = await fetchLeagueStandings('super-lig');
+
   return (
-    <div className={styles.page}>
-      <main className={styles.main}>
-        <Image
-          className={styles.logo}
-          src="/next.svg"
-          alt="Next.js logo"
-          width={100}
-          height={20}
-          priority
-        />
-        <div className={styles.intro}>
-          <h1>To get started, edit the page.tsx file.</h1>
-          <p>
-            Looking for a starting point or more instructions? Head over to{" "}
-            <a
-              href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Templates
-            </a>{" "}
-            or the{" "}
-            <a
-              href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Learning
-            </a>{" "}
-            center.
-          </p>
+    <div className="container">
+      <section className={styles.hero}>
+        <h1 className={styles.heroTitle}>
+          Digital Football Rankings
+        </h1>
+        <p className={styles.heroSubtitle}>
+          Track the social media power of football clubs across Instagram, TikTok, and Twitter
+        </p>
+      </section>
+
+      <LeagueSelector />
+
+      <section className={styles.leaguePreview}>
+        <div className={styles.previewCard}>
+          <div className={styles.previewHeader}>
+            <h2>Premier League</h2>
+            <Link href="/league/premier-league" className={styles.viewAll}>
+              View All →
+            </Link>
+          </div>
+          <StandingsTable
+            clubs={premierLeagueClubs}
+            title=""
+            limit={5}
+          />
         </div>
-        <div className={styles.ctas}>
-          <a
-            className={styles.primary}
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className={styles.logo}
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={16}
-              height={16}
-            />
-            Deploy Now
-          </a>
-          <a
-            className={styles.secondary}
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Documentation
-          </a>
+
+        <div className={styles.previewCard}>
+          <div className={styles.previewHeader}>
+            <h2>La Liga</h2>
+            <Link href="/league/la-liga" className={styles.viewAll}>
+              View All →
+            </Link>
+          </div>
+          <StandingsTable
+            clubs={laLigaClubs}
+            title=""
+            limit={5}
+          />
         </div>
-      </main>
+
+        <div className={styles.previewCard}>
+          <div className={styles.previewHeader}>
+            <h2>Süper Lig</h2>
+            <Link href="/league/super-lig" className={styles.viewAll}>
+              View All →
+            </Link>
+          </div>
+          <StandingsTable
+            clubs={superLigClubs}
+            title=""
+            limit={5}
+          />
+        </div>
+      </section>
+
+      <section className={styles.cta}>
+        <h2>Explore More</h2>
+        <div className={styles.ctaButtons}>
+          <Link href="/global" className="btn btn-primary">
+            Global Rankings
+          </Link>
+          <Link href="/battle" className="btn btn-secondary">
+            Battle Mode
+          </Link>
+        </div>
+      </section>
     </div>
   );
 }

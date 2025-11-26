@@ -1,0 +1,358 @@
+# Twitter Takipçi Sayıları - Alfabetik Sıralı Manuel Veri Girişi
+
+## Talimatlar
+1. twitter-screenshots/ klasöründe dosyalar alfabetik sırada
+2. Her screenshot'ı sırayla açıp takipçi sayısını yazın
+3. Resmi hesap yoksa "YOK" yazın
+4. Sayıları olduğu gibi yazın (örn: 17.8M, 2.5M, 450K)
+
+## Screenshot Konumu
+/Users/umutgucluer/.gemini/antigravity/scratch/xelan-sports-standing/twitter-screenshots/
+
+---
+
+1. @1913parmacalcio (Parma)
+   Takipçi: 
+
+2. @AJA (Auxerre)
+   Takipçi: 
+
+3. @AS_Monaco (Monaco)
+   Takipçi: 
+
+4. @AVFCOfficial (Aston Villa)
+   Takipçi: 
+
+5. @Alanyaspor
+   Takipçi: 
+
+6. @Alaves
+   Takipçi: 
+
+7. @AngersSCO (Angers)
+   Takipçi: 
+
+8. @Antalyaspor
+   Takipçi: 
+
+9. @Arsenal
+   Takipçi: 
+
+10. @Atalanta_BC (Atalanta)
+    Takipçi: 
+
+11. @AthleticClub (Athletic Bilbao)
+    Takipçi: 
+
+12. @Atleti (Atlético Madrid)
+    Takipçi: 
+
+13. @BVB (Borussia Dortmund)
+    Takipçi: 
+
+14. @Besiktas (Beşiktaş)
+    Takipçi: 
+
+15. @BfcOfficialPage (Bologna)
+    Takipçi: 
+
+16. @BrentfordFC (Brentford)
+    Takipçi: 
+
+17. @BurnleyOfficial (Burnley)
+    Takipçi: 
+
+18. @CAOsasuna (Osasuna)
+    Takipçi: 
+
+19. @CPFC (Crystal Palace)
+    Takipçi: 
+
+20. @CagliariCalcio (Cagliari)
+    Takipçi: 
+
+21. @ChelseaFC (Chelsea)
+    Takipçi: 
+
+22. @Como_1907 (Como)
+    Takipçi: 
+
+23. @Eintracht (Eintracht Frankfurt)
+    Takipçi: 
+
+24. @Elchecf_en (Elche)
+    Takipçi: 
+
+25. @Everton
+    Takipçi: 
+
+26. @Eyupspor (Eyüpspor)
+    Takipçi: 
+
+27. @FCAugsburg (Augsburg)
+    Takipçi: 
+
+28. @FCBarcelona (Barcelona)
+    Takipçi: 
+
+29. @FCBayern (Bayern Munich)
+    Takipçi: 
+
+30. @FCH1846 (Heidenheim)
+    Takipçi: 
+
+31. @FCLorient (Lorient)
+    Takipçi: 
+
+32. @FCMetz (Metz)
+    Takipçi: 
+
+33. @FCNantes (Nantes)
+    Takipçi: 
+
+34. @Fenerbahce (Fenerbahçe)
+    Takipçi: 
+
+35. @FulhamFC (Fulham)
+    Takipçi: 
+
+36. @GalatasaraySK (Galatasaray)
+    Takipçi: 
+
+37. @GaziantepFK (Gaziantep FK)
+    Takipçi: 
+
+38. @Genclerbirligi (Gençlerbirliği)
+    Takipçi: 
+
+39. @GenoaCFC (Genoa)
+    Takipçi: 
+
+40. @GetafeCF (Getafe)
+    Takipçi: 
+
+41. @GironaFC (Girona)
+    Takipçi: 
+
+42. @Goztepe (Göztepe)
+    Takipçi: 
+
+43. @HSV (Hamburg)
+    Takipçi: 
+
+44. @HellasVeronaFC (Hellas Verona)
+    Takipçi: 
+
+45. @Inter
+    Takipçi: 
+
+46. @KasimpasaSK (Kasımpaşa)
+    Takipçi: 
+
+47. @Kayserispor
+    Takipçi: 
+
+48. @Kocaelispor
+    Takipçi: 
+
+49. @LFC (Liverpool)
+    Takipçi: 
+
+50. @LUFC (Leeds United)
+    Takipçi: 
+
+51. @LevanteUD (Levante)
+    Takipçi: 
+
+52. @Mainz05 (Mainz)
+    Takipçi: 
+
+53. @ManCity (Manchester City)
+    Takipçi: 
+
+54. @ManUtd (Manchester United)
+    Takipçi: 
+
+55. @NFFC (Nottingham Forest)
+    Takipçi: 
+
+56. @NUFC (Newcastle United)
+    Takipçi: 
+
+57. @OL (Lyon)
+    Takipçi: 
+
+58. @OM_Officiel (Marseille)
+    Takipçi: 
+
+59. @OfficialASRoma (AS Roma)
+    Takipçi: 
+
+60. @OfficialBHAFC (Brighton)
+    Takipçi: 
+
+61. @OfficialSSLazio (Lazio)
+    Takipçi: 
+
+62. @OfficialUSLecce (Lecce)
+    Takipçi: 
+
+63. @PSG_inside (PSG)
+    Takipçi: 
+
+64. @ParisFC (Paris FC)
+    Takipçi: 
+
+65. @PisaSC (Pisa)
+    Takipçi: 
+
+66. @RBLeipzig (RB Leipzig)
+    Takipçi: 
+
+67. @RCCelta (Celta Vigo)
+    Takipçi: 
+
+68. @RCDEspanyol (Espanyol)
+    Takipçi: 
+
+69. @RCD_Mallorca (Mallorca)
+    Takipçi: 
+
+70. @RCLens (Lens)
+    Takipçi: 
+
+71. @RCSA (Strasbourg)
+    Takipçi: 
+
+72. @RayoVallecano (Rayo Vallecano)
+    Takipçi: 
+
+73. @RealBetis (Real Betis)
+    Takipçi: 
+
+74. @RealOviedo (Real Oviedo)
+    Takipçi: 
+
+75. @RealSociedad (Real Sociedad)
+    Takipçi: 
+
+76. @Rizespor
+    Takipçi: 
+
+77. @SB29 (Brest)
+    Takipçi: 
+
+78. @SamsunSporKul (Samsunspor)
+    Takipçi: 
+
+79. @SassuoloUS (Sassuolo)
+    Takipçi: 
+
+80. @SevillaFC (Sevilla)
+    Takipçi: 
+
+81. @SpursOfficial (Tottenham)
+    Takipçi: 
+
+82. @SunderlandAFC (Sunderland)
+    Takipçi: 
+
+83. @TorinoFC_1906 (Torino)
+    Takipçi: 
+
+84. @ToulouseFC (Toulouse)
+    Takipçi: 
+
+85. @Trabzonspor
+    Takipçi: 
+
+86. @USCremonese (Cremonese)
+    Takipçi: 
+
+87. @Udinese_1896 (Udinese)
+    Takipçi: 
+
+88. @VfB (Stuttgart)
+    Takipçi: 
+
+89. @VfL_Wolfsburg (Wolfsburg)
+    Takipçi: 
+
+90. @VillarrealCF (Villarreal)
+    Takipçi: 
+
+91. @WestHam (West Ham)
+    Takipçi: 
+
+92. @Wolves
+    Takipçi: 
+
+93. @acffiorentina (Fiorentina)
+    Takipçi: 
+
+94. @achtzehn99 (Hoffenheim)
+    Takipçi: 
+
+95. @acmilan (AC Milan)
+    Takipçi: 
+
+96. @afcbournemouth (Bournemouth)
+    Takipçi: 
+
+97. @bayer04fussball (Bayer Leverkusen)
+    Takipçi: 
+
+98. @borussia (Borussia Mönchengladbach)
+    Takipçi: 
+
+99. @fckoeln (Köln)
+    Takipçi: 
+
+100. @fcstpauli (St. Pauli)
+     Takipçi: 
+
+101. @fcunion (Union Berlin)
+     Takipçi: 
+
+102. @fkaragumruk (Fatih Karagümrük)
+     Takipçi: 
+
+103. @ibfk2014 (Başakşehir)
+     Takipçi: 
+
+104. @juventusfc (Juventus)
+     Takipçi: 
+
+105. @konyaspor (Konyaspor)
+     Takipçi: 
+
+106. @losclive (Lille)
+     Takipçi: 
+
+107. @ogcnice (Nice)
+     Takipçi: 
+
+108. @realmadrid (Real Madrid)
+     Takipçi: 
+
+109. @scfreiburg (Freiburg)
+     Takipçi: 
+
+110. @sscnapoli (Napoli)
+     Takipçi: 
+
+111. @staderennais (Rennes)
+     Takipçi: 
+
+112. @valenciacf (Valencia)
+     Takipçi: 
+
+113. @werderbremen (Werder Bremen)
+     Takipçi: 
+
+---
+
+## Tamamlandı!
+
+Doldurmayı bitirdiğinizde bu dosyayı kaydedin.
+Klasördeki screenshot'lar da alfabetik sırada, bu listeyle birebir eşleşiyor.

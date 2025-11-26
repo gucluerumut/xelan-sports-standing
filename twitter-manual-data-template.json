@@ -1,0 +1,20 @@
+{
+  "collected_at": "2025-11-25",
+  "source": "manual_entry",
+  "total_profiles": 113,
+  "data": [
+    {
+      "handle": "ManCity",
+      "name": "Manchester City",
+      "followers": 0,
+      "screenshot": "twitter-screenshots/ManCity.png"
+    },
+    {
+      "handle": "Arsenal",
+      "name": "Arsenal",
+      "followers": 0,
+      "screenshot": "twitter-screenshots/Arsenal.png"
+    }
+  ],
+  "instructions": "Fill in follower counts for each club by viewing the screenshots. Leave followers as 0 if no official account exists."
+}
