@@ -1,0 +1,217 @@
+.nav {
+    background: var(--color-bg-secondary);
+    border-bottom: 1px solid var(--border-subtle);
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(10px);
+}
+
+.container {
+    max-width: 1400px;
+    margin: 0 auto;
+    padding: 0 var(--spacing-lg);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: var(--color-text-primary);
+    font-weight: 700;
+    font-size: 18px;
+    text-decoration: none;
+    transition: opacity var(--transition-fast);
+}
+
+.logo:hover {
+    opacity: 0.8;
+}
+
+.logoIcon {
+    width: 32px;
+    height: 32px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: var(--color-accent);
+    border-radius: var(--radius-md);
+    color: white;
+}
+
+.logoText {
+    font-weight: 700;
+    letter-spacing: -0.01em;
+}
+
+.menu {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-xl);
+    flex: 1;
+    margin-left: var(--spacing-3xl);
+}
+
+.menuItem {
+    color: var(--color-text-secondary);
+    text-decoration: none;
+    font-size: 14px;
+    font-weight: 500;
+    padding: 8px 0;
+    border: none;
+    background: none;
+    cursor: pointer;
+    transition: color var(--transition-fast);
+    display: flex;
+    align-items: center;
+    gap: 4px;
+}
+
+.menuItem:hover {
+    color: var(--color-text-primary);
+}
+
+.dropdown {
+    position: relative;
+}
+
+.arrow {
+    font-size: 10px;
+    margin-left: 2px;
+    opacity: 0.6;
+}
+
+.dropdownMenu {
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 0;
+    background: var(--color-bg-card);
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-lg);
+    box-shadow: var(--shadow-lg);
+    min-width: 200px;
+    padding: var(--spacing-sm) 0;
+    animation: fadeIn 0.2s ease-out;
+}
+
+.dropdownItem {
+    display: block;
+    padding: 10px 16px;
+    color: var(--color-text-primary);
+    text-decoration: none;
+    font-size: 14px;
+    transition: background var(--transition-fast);
+}
+
+.dropdownItem:hover {
+    background: var(--color-bg-card-hover);
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-left: auto;
+}
+
+.search {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.search svg {
+    position: absolute;
+    left: 12px;
+    color: var(--color-text-muted);
+    pointer-events: none;
+}
+
+.searchInput {
+    width: 280px;
+    padding: 8px 12px 8px 36px;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    background: var(--color-bg-card);
+    color: var(--color-text-primary);
+    font-size: 14px;
+    transition: all var(--transition-fast);
+}
+
+.searchInput:focus {
+    outline: none;
+    border-color: var(--color-accent);
+    background: var(--color-bg-card-hover);
+    width: 320px;
+}
+
+.searchInput::placeholder {
+    color: var(--color-text-muted);
+}
+
+.iconBtn {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background: transparent;
+    border: 1px solid var(--border-light);
+    border-radius: var(--radius-md);
+    color: var(--color-text-secondary);
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.iconBtn:hover {
+    background: var(--color-bg-card);
+    color: var(--color-text-primary);
+    border-color: var(--border-medium);
+}
+
+.avatar {
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-full);
+    overflow: hidden;
+    border: 2px solid var(--border-light);
+    cursor: pointer;
+    transition: border-color var(--transition-fast);
+}
+
+.avatar:hover {
+    border-color: var(--color-accent);
+}
+
+.avatar img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+@media (max-width: 768px) {
+    .menu {
+        display: none;
+    }
+
+    .search {
+        flex: 1;
+        margin-left: var(--spacing-md);
+    }
+
+    .searchInput {
+        width: 100%;
+    }
+
+    .searchInput:focus {
+        width: 100%;
+    }
+
+    .iconBtn {
+        display: none;
+    }
+}

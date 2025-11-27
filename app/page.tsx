@@ -3,6 +3,8 @@ import { fetchLeagueStandings } from '@/lib/apify-service';
 import { CLUB_DATA } from '@/lib/club-data-real';
 import DataTable from '@/components/DataTable';
 import StatsCard from '@/components/StatsCard';
+import PillTabs from '@/components/PillTabs';
+import ModernClubCard from '@/components/ModernClubCard';
 import styles from './page.module.css';
 
 export default async function Home() {
@@ -16,13 +18,22 @@ export default async function Home() {
     sum + club.metrics.instagramFollowers + club.metrics.tiktokFollowers + club.metrics.twitterFollowers, 0
   );
 
+  const leagues = [
+    { name: 'Premier League', slug: 'premier-league' },
+    { name: 'La Liga', slug: 'la-liga' },
+    { name: 'Süper Lig', slug: 'super-lig' },
+    { name: 'Serie A', slug: 'serie-a' },
+    { name: 'Bundesliga', slug: 'bundesliga' },
+    { name: 'Ligue 1', slug: 'ligue-1' },
+  ];
+
   return (
     <div className="container">
       {/* Hero Section */}
       <section className={styles.hero}>
         <h1 className={styles.title}>Digital Football Rankings</h1>
         <p className={styles.subtitle}>
-          Comprehensive social media performance tracker for football clubs across Instagram, TikTok, and Twitter
+          Track the social media power of football clubs across Instagram, TikTok, and Twitter
         </p>
       </section>
 
@@ -38,7 +49,13 @@ export default async function Home() {
         <StatsCard value="Live" label="Updates" icon="📊" />
       </section>
 
-      {/* Top Clubs */}
+      {/* League Selector */}
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Leagues</h2>
+        <PillTabs tabs={leagues} activeTab="premier-league" />
+      </section>
+
+      {/* Top Clubs Table */}
       <section className={styles.section}>
         <div className={styles.sectionHeader}>
           <h2>Top Clubs by Digital Score</h2>
@@ -49,45 +66,22 @@ export default async function Home() {
         <DataTable clubs={CLUB_DATA} limit={10} />
       </section>
 
-      {/* League Previews */}
+      {/* Featured Clubs */}
       <section className={styles.section}>
-        <h2 className={styles.sectionTitle}>Leagues</h2>
-        <div className={styles.leagueGrid}>
-          <div className={styles.leagueCard}>
-            <div className={styles.leagueHeader}>
-              <h3>Premier League</h3>
-              <Link href="/league/premier-league" className="btn btn-secondary btn-sm">
-                View All →
-              </Link>
-            </div>
-            <DataTable clubs={premierLeagueClubs} limit={5} showRank={false} />
-          </div>
-
-          <div className={styles.leagueCard}>
-            <div className={styles.leagueHeader}>
-              <h3>La Liga</h3>
-              <Link href="/league/la-liga" className="btn btn-secondary btn-sm">
-                View All →
-              </Link>
-            </div>
-            <DataTable clubs={laLigaClubs} limit={5} showRank={false} />
-          </div>
-
-          <div className={styles.leagueCard}>
-            <div className={styles.leagueHeader}>
-              <h3>Süper Lig</h3>
-              <Link href="/league/super-lig" className="btn btn-secondary btn-sm">
-                View All →
-              </Link>
-            </div>
-            <DataTable clubs={superLigClubs} limit={5} showRank={false} />
-          </div>
+        <h2 className={styles.sectionTitle}>Featured Clubs</h2>
+        <div className={styles.clubGrid}>
+          {CLUB_DATA.slice(0, 6).map((club, index) => (
+            <ModernClubCard key={club.id} club={club} rank={index + 1} />
+          ))}
         </div>
       </section>
 
       {/* CTA */}
       <section className={styles.cta}>
-        <h2>Explore More</h2>
+        <div className={styles.ctaContent}>
+          <h2>Explore More</h2>
+          <p>Discover detailed statistics and compare clubs across all leagues</p>
+        </div>
         <div className={styles.ctaButtons}>
           <Link href="/global" className="btn btn-primary">
             Global Rankings

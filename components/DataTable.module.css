@@ -1,35 +1,37 @@
 .tableWrapper {
     overflow-x: auto;
-    border-radius: var(--radius-md);
-    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+    border: 1px solid var(--border-subtle);
+    background: var(--color-bg-card);
 }
 
 .table {
     width: 100%;
     border-collapse: collapse;
-    background: white;
+    background: var(--color-bg-card);
     font-size: 14px;
 }
 
 .table thead {
     background: var(--color-bg-tertiary);
-    border-bottom: 2px solid var(--color-border-dark);
+    border-bottom: 1px solid var(--border-light);
 }
 
 .table th {
-    padding: 12px;
+    padding: 14px;
     text-align: left;
     font-weight: 600;
     font-size: 11px;
     text-transform: uppercase;
     letter-spacing: 0.5px;
-    color: var(--color-text-secondary);
+    color: var(--color-text-muted);
     white-space: nowrap;
 }
 
 .table td {
-    padding: 12px;
-    border-top: 1px solid var(--color-border-light);
+    padding: 14px;
+    border-top: 1px solid var(--border-subtle);
+    color: var(--color-text-primary);
 }
 
 .row {
@@ -37,7 +39,7 @@
 }
 
 .row:hover {
-    background: var(--color-accent-light);
+    background: var(--color-bg-card-hover);
 }
 
 /* Column Widths */
@@ -92,15 +94,15 @@
 }
 
 .clubLogo {
-    width: 32px;
-    height: 32px;
-    border-radius: var(--radius-sm);
-    background: var(--color-accent);
+    width: 36px;
+    height: 36px;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
     color: white;
     display: flex;
     align-items: center;
     justify-content: center;
-    font-size: 11px;
+    font-size: 12px;
     font-weight: 700;
     flex-shrink: 0;
 }
@@ -116,11 +118,12 @@
 
 .leagueBadge {
     display: inline-block;
-    padding: 4px 8px;
-    background: var(--color-bg-secondary);
-    border-radius: var(--radius-sm);
+    padding: 4px 10px;
+    background: var(--color-bg-tertiary);
+    border-radius: var(--radius-full);
     font-size: 12px;
     color: var(--color-text-secondary);
+    border: 1px solid var(--border-subtle);
 }
 
 .score {

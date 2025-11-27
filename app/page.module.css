@@ -1,18 +1,23 @@
 .hero {
   text-align: center;
-  padding: var(--spacing-2xl) 0;
+  padding: var(--spacing-3xl) 0 var(--spacing-2xl);
   margin-bottom: var(--spacing-xl);
 }
 
 .title {
-  font-size: 32px;
-  font-weight: 700;
+  font-size: 48px;
+  font-weight: 800;
   color: var(--color-text-primary);
   margin-bottom: var(--spacing-md);
+  letter-spacing: -0.02em;
+  background: linear-gradient(135deg, var(--color-text-primary), var(--color-accent));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
 }
 
 .subtitle {
-  font-size: 16px;
+  font-size: 18px;
   color: var(--color-text-secondary);
   max-width: 700px;
   margin: 0 auto;
@@ -21,13 +26,13 @@
 
 .stats {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: var(--spacing-lg);
   margin-bottom: var(--spacing-2xl);
 }
 
 .section {
-  margin-bottom: var(--spacing-2xl);
+  margin-bottom: var(--spacing-3xl);
 }
 
 .sectionHeader {
@@ -39,45 +44,41 @@
 
 .sectionHeader h2 {
   margin: 0;
+  font-size: 24px;
 }
 
 .sectionTitle {
   margin-bottom: var(--spacing-lg);
+  font-size: 24px;
 }
 
-.leagueGrid {
+.clubGrid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+  grid-template-columns: repeat(auto-fill, minmax(380px, 1fr));
   gap: var(--spacing-lg);
 }
 
-.leagueCard {
-  background: white;
-  border: 1px solid var(--color-border);
-  border-radius: var(--radius-md);
-  padding: var(--spacing-lg);
-}
-
-.leagueHeader {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  margin-bottom: var(--spacing-md);
-}
-
-.leagueHeader h3 {
-  margin: 0;
-  font-size: 18px;
-}
-
 .cta {
+  background: var(--color-bg-card);
+  border: 1px solid var(--border-subtle);
+  border-radius: var(--radius-lg);
+  padding: var(--spacing-3xl);
   text-align: center;
-  padding: var(--spacing-2xl) 0;
-  margin-top: var(--spacing-2xl);
+  margin-top: var(--spacing-3xl);
 }
 
-.cta h2 {
-  margin-bottom: var(--spacing-lg);
+.ctaContent {
+  margin-bottom: var(--spacing-xl);
+}
+
+.ctaContent h2 {
+  margin-bottom: var(--spacing-sm);
+  font-size: 32px;
+}
+
+.ctaContent p {
+  color: var(--color-text-secondary);
+  font-size: 16px;
 }
 
 .ctaButtons {
@@ -88,18 +89,18 @@
 
 @media (max-width: 768px) {
   .title {
-    font-size: 24px;
+    font-size: 32px;
   }
 
   .subtitle {
-    font-size: 14px;
+    font-size: 16px;
   }
 
   .stats {
     grid-template-columns: repeat(2, 1fr);
   }
 
-  .leagueGrid {
+  .clubGrid {
     grid-template-columns: 1fr;
   }
 
@@ -112,5 +113,9 @@
   .ctaButtons {
     flex-direction: column;
     width: 100%;
+  }
+
+  .cta {
+    padding: var(--spacing-xl);
   }
 }

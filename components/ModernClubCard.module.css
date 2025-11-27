@@ -1,0 +1,165 @@
+.card {
+    background: var(--color-bg-card);
+    border: 1px solid var(--border-subtle);
+    border-radius: var(--radius-lg);
+    padding: var(--spacing-lg);
+    transition: all var(--transition-base);
+}
+
+.card:hover {
+    border-color: var(--border-light);
+    box-shadow: var(--shadow-md);
+    transform: translateY(-2px);
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+    padding-bottom: var(--spacing-md);
+    border-bottom: 1px solid var(--border-subtle);
+}
+
+.rank {
+    font-size: 20px;
+    font-weight: 700;
+    color: var(--color-text-muted);
+    min-width: 40px;
+}
+
+.clubInfo {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    flex: 1;
+}
+
+.logo {
+    width: 48px;
+    height: 48px;
+    border-radius: var(--radius-full);
+    background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: 700;
+    flex-shrink: 0;
+}
+
+.details {
+    flex: 1;
+}
+
+.name {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    margin: 0 0 4px 0;
+}
+
+.league {
+    font-size: 13px;
+    color: var(--color-text-muted);
+}
+
+.score {
+    text-align: right;
+}
+
+.scoreValue {
+    font-size: 24px;
+    font-weight: 700;
+    color: var(--color-accent);
+    font-family: 'SF Mono', Monaco, monospace;
+}
+
+.scoreLabel {
+    font-size: 11px;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-top: 2px;
+}
+
+.stats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.statItem {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-sm);
+    padding: var(--spacing-md);
+    background: var(--color-bg-tertiary);
+    border-radius: var(--radius-md);
+}
+
+.statIcon {
+    font-size: 20px;
+}
+
+.statInfo {
+    flex: 1;
+}
+
+.statLabel {
+    font-size: 11px;
+    color: var(--color-text-muted);
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 2px;
+}
+
+.statValue {
+    font-size: 16px;
+    font-weight: 600;
+    color: var(--color-text-primary);
+    font-family: 'SF Mono', Monaco, monospace;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: var(--spacing-md);
+    border-top: 1px solid var(--border-subtle);
+}
+
+.viewBtn {
+    padding: 8px 16px;
+    background: var(--color-accent);
+    color: white;
+    border: none;
+    border-radius: var(--radius-md);
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+    transition: all var(--transition-fast);
+}
+
+.viewBtn:hover {
+    background: var(--color-accent-hover);
+    transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+    .stats {
+        grid-template-columns: 1fr;
+    }
+
+    .header {
+        flex-wrap: wrap;
+    }
+
+    .score {
+        width: 100%;
+        text-align: left;
+        margin-top: var(--spacing-sm);
+    }
+}
