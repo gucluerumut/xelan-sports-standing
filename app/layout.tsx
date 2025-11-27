@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
-import Header from "@/components/Header";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Xelan Sports Standing - Digital Football Rankings",
@@ -15,8 +15,8 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body>
-        <Header />
-        <main>{children}</main>
+        <Navbar />
+        <main style={{ paddingTop: '80px' }}>{children}</main>
       </body>
     </html>
   );

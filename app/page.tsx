@@ -1,8 +1,12 @@
+'use client';
+
+import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { LEAGUES } from '@/lib/types';
+import { CLUB_DATA } from '@/lib/club-data-real';
 import { fetchLeagueStandings } from '@/lib/apify-service';
 import LeagueSelector from '@/components/LeagueSelector';
 import StandingsTable from '@/components/StandingsTable';
+import SearchBar from '@/components/SearchBar';
 import styles from './page.module.css';
 
 export default async function Home() {
@@ -13,62 +17,81 @@ export default async function Home() {
 
   return (
     <div className="container">
-      <section className={styles.hero}>
-        <h1 className={styles.heroTitle}>
+      {/* Enhanced Hero Section */}
+      <motion.section
+        className={styles.hero}
+        initial={{ opacity: 0 }}
+        animate={{ opacity: 1 }}
+        transition={{ duration: 0.8 }}
+      >
+        <motion.h1
+          className={styles.heroTitle}
+          initial={{ opacity: 0, y: 30 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.2 }}
+        >
           Digital Football Rankings
-        </h1>
-        <p className={styles.heroSubtitle}>
+        </motion.h1>
+        <motion.p
+          className={styles.heroSubtitle}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.4 }}
+        >
           Track the social media power of football clubs across Instagram, TikTok, and Twitter
-        </p>
-      </section>
+        </motion.p>
+
+        {/* Search Bar */}
+        <motion.div
+          className={styles.searchContainer}
+          initial={{ opacity: 0, y: 20 }}
+          animate={{ opacity: 1, y: 0 }}
+          transition={{ duration: 0.8, delay: 0.6 }}
+        >
+          <SearchBar clubs={CLUB_DATA} />
+        </motion.div>
+      </motion.section>
 
       <LeagueSelector />
 
+      {/* League Previews */}
       <section className={styles.leaguePreview}>
-        <div className={styles.previewCard}>
-          <div className={styles.previewHeader}>
-            <h2>Premier League</h2>
-            <Link href="/league/premier-league" className={styles.viewAll}>
-              View All →
-            </Link>
-          </div>
-          <StandingsTable
-            clubs={premierLeagueClubs}
-            title=""
-            limit={5}
-          />
-        </div>
-
-        <div className={styles.previewCard}>
-          <div className={styles.previewHeader}>
-            <h2>La Liga</h2>
-            <Link href="/league/la-liga" className={styles.viewAll}>
-              View All →
-            </Link>
-          </div>
-          <StandingsTable
-            clubs={laLigaClubs}
-            title=""
-            limit={5}
-          />
-        </div>
-
-        <div className={styles.previewCard}>
-          <div className={styles.previewHeader}>
-            <h2>Süper Lig</h2>
-            <Link href="/league/super-lig" className={styles.viewAll}>
-              View All →
-            </Link>
-          </div>
-          <StandingsTable
-            clubs={superLigClubs}
-            title=""
-            limit={5}
-          />
-        </div>
+        {[
+          { title: 'Premier League', clubs: premierLeagueClubs, slug: 'premier-league' },
+          { title: 'La Liga', clubs: laLigaClubs, slug: 'la-liga' },
+          { title: 'Süper Lig', clubs: superLigClubs, slug: 'super-lig' },
+        ].map((league, index) => (
+          <motion.div
+            key={league.slug}
+            className={styles.previewCard}
+            initial={{ opacity: 0, y: 50 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true, margin: '-100px' }}
+            transition={{ duration: 0.6, delay: index * 0.1 }}
+          >
+            <div className={styles.previewHeader}>
+              <h2>{league.title}</h2>
+              <Link href={`/league/${league.slug}`} className={styles.viewAll}>
+                View All →
+              </Link>
+            </div>
+            <StandingsTable
+              clubs={league.clubs}
+              title=""
+              limit={5}
+            />
+          </motion.div>
+        ))}
       </section>
 
-      <section className={styles.cta}>
+      {/* CTA Section */}
+      <motion.section
+        className={styles.cta}
+        initial={{ opacity: 0 }}
+        whileInView={{ opacity: 1 }}
+        viewport={{ once: true }}
+        transition={{ duration: 0.8 }}
+      >
         <h2>Explore More</h2>
         <div className={styles.ctaButtons}>
           <Link href="/global" className="btn btn-primary">
@@ -78,7 +101,7 @@ export default async function Home() {
             Battle Mode
           </Link>
         </div>
-      </section>
+      </motion.section>
     </div>
   );
 }

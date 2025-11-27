@@ -1,0 +1,170 @@
+.skeleton {
+    background: linear-gradient(90deg,
+            var(--color-bg-card) 0%,
+            rgba(148, 163, 184, 0.1) 50%,
+            var(--color-bg-card) 100%);
+    background-size: 200% 100%;
+    animation: shimmer 1.5s infinite;
+    border-radius: var(--radius-md);
+}
+
+@keyframes shimmer {
+    0% {
+        background-position: -200% 0;
+    }
+
+    100% {
+        background-position: 200% 0;
+    }
+}
+
+/* Hero Skeleton */
+.heroSkeleton {
+    text-align: center;
+    padding: var(--spacing-3xl) 0;
+}
+
+.title {
+    height: 60px;
+    width: 60%;
+    margin: 0 auto var(--spacing-lg);
+}
+
+.subtitle {
+    height: 24px;
+    width: 40%;
+    margin: 0 auto;
+}
+
+/* Card Skeleton */
+.cardGrid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: var(--spacing-lg);
+}
+
+.cardSkeleton {
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-xl);
+    padding: var(--spacing-lg);
+}
+
+.cardHeader {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-lg);
+}
+
+.logo {
+    width: 60px;
+    height: 60px;
+    border-radius: var(--radius-lg);
+    flex-shrink: 0;
+}
+
+.cardInfo {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-sm);
+}
+
+.name {
+    height: 24px;
+    width: 70%;
+}
+
+.league {
+    height: 16px;
+    width: 50%;
+}
+
+.rank {
+    width: 40px;
+    height: 32px;
+}
+
+.cardStats {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: var(--spacing-md);
+    padding: var(--spacing-md) 0;
+    margin-bottom: var(--spacing-md);
+    border-top: 1px solid var(--color-border);
+    border-bottom: 1px solid var(--color-border);
+}
+
+.stat {
+    height: 40px;
+}
+
+.score {
+    height: 32px;
+    width: 100%;
+}
+
+/* Table Skeleton */
+.tableSkeleton {
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-md);
+}
+
+.rowSkeleton {
+    display: flex;
+    align-items: center;
+    gap: var(--spacing-md);
+    padding: var(--spacing-md);
+    background: var(--color-bg-card);
+    border: 1px solid var(--color-border);
+    border-radius: var(--radius-lg);
+}
+
+.rowSkeleton .rank {
+    width: 30px;
+    height: 24px;
+}
+
+.rowSkeleton .logo {
+    width: 50px;
+    height: 50px;
+}
+
+.info {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: var(--spacing-xs);
+}
+
+.info .name {
+    height: 20px;
+    width: 60%;
+}
+
+.info .league {
+    height: 14px;
+    width: 40%;
+}
+
+.stats {
+    display: flex;
+    gap: var(--spacing-lg);
+}
+
+.stats .stat {
+    width: 60px;
+    height: 24px;
+}
+
+@media (max-width: 768px) {
+    .cardGrid {
+        grid-template-columns: 1fr;
+    }
+
+    .stats {
+        display: none;
+    }
+}

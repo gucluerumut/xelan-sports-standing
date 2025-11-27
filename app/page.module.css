@@ -14,8 +14,13 @@
   font-size: 1.25rem;
   color: var(--color-text-secondary);
   max-width: 600px;
-  margin: 0 auto;
+  margin: 0 auto var(--spacing-xl);
   animation: fadeIn 1s ease-out;
+}
+
+.searchContainer {
+  max-width: 600px;
+  margin: 0 auto;
 }
 
 .leaguePreview {
