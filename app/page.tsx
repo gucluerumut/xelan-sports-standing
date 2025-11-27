@@ -1,107 +1,102 @@
-'use client';
-
-import { motion } from 'framer-motion';
 import Link from 'next/link';
-import { CLUB_DATA } from '@/lib/club-data-real';
 import { fetchLeagueStandings } from '@/lib/apify-service';
-import LeagueSelector from '@/components/LeagueSelector';
-import StandingsTable from '@/components/StandingsTable';
-import SearchBar from '@/components/SearchBar';
+import { CLUB_DATA } from '@/lib/club-data-real';
+import DataTable from '@/components/DataTable';
+import StatsCard from '@/components/StatsCard';
 import styles from './page.module.css';
 
 export default async function Home() {
-  // Fetch top 5 clubs for each league
+  // Fetch top clubs for preview
   const premierLeagueClubs = await fetchLeagueStandings('premier-league');
   const laLigaClubs = await fetchLeagueStandings('la-liga');
   const superLigClubs = await fetchLeagueStandings('super-lig');
 
+  // Calculate total followers
+  const totalFollowers = CLUB_DATA.reduce((sum, club) =>
+    sum + club.metrics.instagramFollowers + club.metrics.tiktokFollowers + club.metrics.twitterFollowers, 0
+  );
+
   return (
     <div className="container">
-      {/* Enhanced Hero Section */}
-      <motion.section
-        className={styles.hero}
-        initial={{ opacity: 0 }}
-        animate={{ opacity: 1 }}
-        transition={{ duration: 0.8 }}
-      >
-        <motion.h1
-          className={styles.heroTitle}
-          initial={{ opacity: 0, y: 30 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-        >
-          Digital Football Rankings
-        </motion.h1>
-        <motion.p
-          className={styles.heroSubtitle}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.4 }}
-        >
-          Track the social media power of football clubs across Instagram, TikTok, and Twitter
-        </motion.p>
+      {/* Hero Section */}
+      <section className={styles.hero}>
+        <h1 className={styles.title}>Digital Football Rankings</h1>
+        <p className={styles.subtitle}>
+          Comprehensive social media performance tracker for football clubs across Instagram, TikTok, and Twitter
+        </p>
+      </section>
 
-        {/* Search Bar */}
-        <motion.div
-          className={styles.searchContainer}
-          initial={{ opacity: 0, y: 20 }}
-          animate={{ opacity: 1, y: 0 }}
-          transition={{ duration: 0.8, delay: 0.6 }}
-        >
-          <SearchBar clubs={CLUB_DATA} />
-        </motion.div>
-      </motion.section>
+      {/* Quick Stats */}
+      <section className={styles.stats}>
+        <StatsCard value="113" label="Total Clubs" icon="⚽" />
+        <StatsCard value="6" label="Leagues" icon="🏆" />
+        <StatsCard
+          value={`${(totalFollowers / 1000000000).toFixed(1)}B`}
+          label="Total Followers"
+          icon="👥"
+        />
+        <StatsCard value="Live" label="Updates" icon="📊" />
+      </section>
 
-      <LeagueSelector />
+      {/* Top Clubs */}
+      <section className={styles.section}>
+        <div className={styles.sectionHeader}>
+          <h2>Top Clubs by Digital Score</h2>
+          <Link href="/global" className="btn btn-ghost">
+            View All Rankings →
+          </Link>
+        </div>
+        <DataTable clubs={CLUB_DATA} limit={10} />
+      </section>
 
       {/* League Previews */}
-      <section className={styles.leaguePreview}>
-        {[
-          { title: 'Premier League', clubs: premierLeagueClubs, slug: 'premier-league' },
-          { title: 'La Liga', clubs: laLigaClubs, slug: 'la-liga' },
-          { title: 'Süper Lig', clubs: superLigClubs, slug: 'super-lig' },
-        ].map((league, index) => (
-          <motion.div
-            key={league.slug}
-            className={styles.previewCard}
-            initial={{ opacity: 0, y: 50 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, margin: '-100px' }}
-            transition={{ duration: 0.6, delay: index * 0.1 }}
-          >
-            <div className={styles.previewHeader}>
-              <h2>{league.title}</h2>
-              <Link href={`/league/${league.slug}`} className={styles.viewAll}>
+      <section className={styles.section}>
+        <h2 className={styles.sectionTitle}>Leagues</h2>
+        <div className={styles.leagueGrid}>
+          <div className={styles.leagueCard}>
+            <div className={styles.leagueHeader}>
+              <h3>Premier League</h3>
+              <Link href="/league/premier-league" className="btn btn-secondary btn-sm">
                 View All →
               </Link>
             </div>
-            <StandingsTable
-              clubs={league.clubs}
-              title=""
-              limit={5}
-            />
-          </motion.div>
-        ))}
+            <DataTable clubs={premierLeagueClubs} limit={5} showRank={false} />
+          </div>
+
+          <div className={styles.leagueCard}>
+            <div className={styles.leagueHeader}>
+              <h3>La Liga</h3>
+              <Link href="/league/la-liga" className="btn btn-secondary btn-sm">
+                View All →
+              </Link>
+            </div>
+            <DataTable clubs={laLigaClubs} limit={5} showRank={false} />
+          </div>
+
+          <div className={styles.leagueCard}>
+            <div className={styles.leagueHeader}>
+              <h3>Süper Lig</h3>
+              <Link href="/league/super-lig" className="btn btn-secondary btn-sm">
+                View All →
+              </Link>
+            </div>
+            <DataTable clubs={superLigClubs} limit={5} showRank={false} />
+          </div>
+        </div>
       </section>
 
-      {/* CTA Section */}
-      <motion.section
-        className={styles.cta}
-        initial={{ opacity: 0 }}
-        whileInView={{ opacity: 1 }}
-        viewport={{ once: true }}
-        transition={{ duration: 0.8 }}
-      >
+      {/* CTA */}
+      <section className={styles.cta}>
         <h2>Explore More</h2>
         <div className={styles.ctaButtons}>
           <Link href="/global" className="btn btn-primary">
             Global Rankings
           </Link>
           <Link href="/battle" className="btn btn-secondary">
-            Battle Mode
+            Compare Clubs
           </Link>
         </div>
-      </motion.section>
+      </section>
     </div>
   );
 }
