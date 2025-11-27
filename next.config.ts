@@ -7,15 +7,11 @@ const nextConfig: NextConfig = {
     remotePatterns: [
       {
         protocol: 'https',
-        hostname: 'resources.premierleague.com',
+        hostname: 'logo.clearbit.com',
       },
       {
         protocol: 'https',
         hostname: 'upload.wikimedia.org',
-      },
-      {
-        protocol: 'https',
-        hostname: 'assets.laliga.com',
       },
     ],
   },
