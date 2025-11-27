@@ -94,19 +94,7 @@
 }
 
 .clubLogo {
-    width: 36px;
-    height: 36px;
-    border-radius: var(--radius-full);
-    background: linear-gradient(135deg, var(--color-accent), var(--color-accent-hover));
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-size: 12px;
-    font-weight: 700;
     flex-shrink: 0;
-    overflow: hidden;
-    position: relative;
 }
 
 .logoImage {

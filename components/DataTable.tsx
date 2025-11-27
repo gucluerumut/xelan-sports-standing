@@ -1,8 +1,8 @@
 'use client';
 
-import Image from 'next/image';
 import { Club } from '@/lib/types';
-import { getClubLogoUrl, getClubInitials } from '@/lib/club-logo-helper';
+import { getClubLogoUrls } from '@/lib/club-logo-helper';
+import ClubLogo from './ClubLogo';
 import styles from './DataTable.module.css';
 
 interface DataTableProps {
@@ -41,8 +41,7 @@ export default function DataTable({ clubs, showRank = true, limit }: DataTablePr
                 </thead>
                 <tbody>
                     {displayClubs.map((club, index) => {
-                        const logoUrl = getClubLogoUrl(club.name);
-                        const initials = getClubInitials(club.name);
+                        const logoUrls = getClubLogoUrls(club.name);
 
                         return (
                             <tr key={club.id} className={styles.row}>
@@ -54,17 +53,11 @@ export default function DataTable({ clubs, showRank = true, limit }: DataTablePr
                                 <td className={styles.clubCell}>
                                     <div className={styles.clubInfo}>
                                         <div className={styles.clubLogo}>
-                                            {logoUrl ? (
-                                                <Image
-                                                    src={logoUrl}
-                                                    alt={`${club.name} logo`}
-                                                    width={36}
-                                                    height={36}
-                                                    className={styles.logoImage}
-                                                />
-                                            ) : (
-                                                <span className={styles.logoInitials}>{initials}</span>
-                                            )}
+                                            <ClubLogo
+                                                clubName={club.name}
+                                                logoUrls={logoUrls}
+                                                size="sm"
+                                            />
                                         </div>
                                         <span className={styles.clubName}>{club.name}</span>
                                     </div>
