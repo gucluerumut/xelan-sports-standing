@@ -105,6 +105,22 @@
     font-size: 12px;
     font-weight: 700;
     flex-shrink: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.logoImage {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    background: white;
+    border-radius: var(--radius-full);
+}
+
+.logoInitials {
+    font-size: 12px;
+    font-weight: 700;
+    color: white;
 }
 
 .clubName {

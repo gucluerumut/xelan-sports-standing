@@ -1,6 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { Club } from '@/lib/types';
+import { getClubLogoUrl, getClubInitials } from '@/lib/club-logo-helper';
 import { SocialMediaLinks } from './SocialMediaLinks';
 import styles from './ModernClubCard.module.css';
 
@@ -20,13 +22,26 @@ export default function ModernClubCard({ club, rank }: ModernClubCardProps) {
         return num.toString();
     };
 
+    const logoUrl = getClubLogoUrl(club.name);
+    const initials = getClubInitials(club.name);
+
     return (
         <div className={styles.card}>
             <div className={styles.header}>
                 <div className={styles.rank}>#{rank}</div>
                 <div className={styles.clubInfo}>
                     <div className={styles.logo}>
-                        {club.name.substring(0, 2).toUpperCase()}
+                        {logoUrl ? (
+                            <Image
+                                src={logoUrl}
+                                alt={`${club.name} logo`}
+                                width={48}
+                                height={48}
+                                className={styles.logoImage}
+                            />
+                        ) : (
+                            <span className={styles.logoInitials}>{initials}</span>
+                        )}
                     </div>
                     <div className={styles.details}>
                         <h3 className={styles.name}>{club.name}</h3>

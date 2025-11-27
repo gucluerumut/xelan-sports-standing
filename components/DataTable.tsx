@@ -1,6 +1,8 @@
 'use client';
 
+import Image from 'next/image';
 import { Club } from '@/lib/types';
+import { getClubLogoUrl, getClubInitials } from '@/lib/club-logo-helper';
 import styles from './DataTable.module.css';
 
 interface DataTableProps {
@@ -38,41 +40,56 @@ export default function DataTable({ clubs, showRank = true, limit }: DataTablePr
                     </tr>
                 </thead>
                 <tbody>
-                    {displayClubs.map((club, index) => (
-                        <tr key={club.id} className={styles.row}>
-                            {showRank && (
-                                <td className={styles.rankCell}>
-                                    <span className={styles.rankNumber}>#{index + 1}</span>
-                                </td>
-                            )}
-                            <td className={styles.clubCell}>
-                                <div className={styles.clubInfo}>
-                                    <div className={styles.clubLogo}>
-                                        {club.name.substring(0, 2).toUpperCase()}
+                    {displayClubs.map((club, index) => {
+                        const logoUrl = getClubLogoUrl(club.name);
+                        const initials = getClubInitials(club.name);
+
+                        return (
+                            <tr key={club.id} className={styles.row}>
+                                {showRank && (
+                                    <td className={styles.rankCell}>
+                                        <span className={styles.rankNumber}>#{index + 1}</span>
+                                    </td>
+                                )}
+                                <td className={styles.clubCell}>
+                                    <div className={styles.clubInfo}>
+                                        <div className={styles.clubLogo}>
+                                            {logoUrl ? (
+                                                <Image
+                                                    src={logoUrl}
+                                                    alt={`${club.name} logo`}
+                                                    width={36}
+                                                    height={36}
+                                                    className={styles.logoImage}
+                                                />
+                                            ) : (
+                                                <span className={styles.logoInitials}>{initials}</span>
+                                            )}
+                                        </div>
+                                        <span className={styles.clubName}>{club.name}</span>
                                     </div>
-                                    <span className={styles.clubName}>{club.name}</span>
-                                </div>
-                            </td>
-                            <td className={styles.leagueCell}>
-                                <span className={styles.leagueBadge}>{club.league}</span>
-                            </td>
-                            <td className={styles.statCell}>
-                                {formatNumber(club.metrics.instagramFollowers)}
-                            </td>
-                            <td className={styles.statCell}>
-                                {formatNumber(club.metrics.tiktokFollowers)}
-                            </td>
-                            <td className={styles.statCell}>
-                                {formatNumber(club.metrics.twitterFollowers)}
-                            </td>
-                            <td className={styles.scoreCell}>
-                                <span className={styles.score}>{club.digitalScore.toLocaleString()}</span>
-                            </td>
-                            <td className={styles.actionCell}>
-                                <button className={styles.viewBtn}>View →</button>
-                            </td>
-                        </tr>
-                    ))}
+                                </td>
+                                <td className={styles.leagueCell}>
+                                    <span className={styles.leagueBadge}>{club.league}</span>
+                                </td>
+                                <td className={styles.statCell}>
+                                    {formatNumber(club.metrics.instagramFollowers)}
+                                </td>
+                                <td className={styles.statCell}>
+                                    {formatNumber(club.metrics.tiktokFollowers)}
+                                </td>
+                                <td className={styles.statCell}>
+                                    {formatNumber(club.metrics.twitterFollowers)}
+                                </td>
+                                <td className={styles.scoreCell}>
+                                    <span className={styles.score}>{club.digitalScore.toLocaleString()}</span>
+                                </td>
+                                <td className={styles.actionCell}>
+                                    <button className={styles.viewBtn}>View →</button>
+                                </td>
+                            </tr>
+                        );
+                    })}
                 </tbody>
             </table>
         </div>
