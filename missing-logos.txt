@@ -1,0 +1,323 @@
+Missing Logos Report
+============================================================
+
+Total clubs: 344
+Clubs with logos: 30
+Clubs without logos: 314
+
+
+Unknown (314 clubs):
+  - 1. FC Heidenheim
+  - 1. FC Union Berlin
+  - 1. FSV Mainz 05
+  - 1.fcunion
+  - 1913parmacalcio
+  - 1fsvmainz05
+  - AC Monza
+  - ACF Fiorentina
+  - AFC Bournemouth
+  - AJ Auxerre
+  - AS Monaco
+  - AS Roma
+  - AS Saint-Étienne
+  - AS_Monaco
+  - AVFCOfficial
+  - Alanyaspor
+  - Alanyaspor
+  - Alaves
+  - Angers SCO
+  - Antalyaspor
+  - Antalyaspor
+  - Atalanta BC
+  - Atalanta_BC
+  - Atleti
+  - BVB
+  - Bayer 04 Leverkusen
+  - Besiktas
+  - BfcOfficialPage
+  - Bologna FC
+  - Borussia Mönchengladbach
+  - Brentford FC
+  - BrentfordFC
+  - CA Osasuna
+  - CAOsasuna
+  - CD Leganés
+  - CPFC
+  - Cagliari Calcio
+  - CagliariCalcio
+  - Celta Vigo
+  - Chelsea FC
+  - ChelseaFC
+  - Como 1907
+  - Deportivo Alavés
+  - Eintracht Frankfurt
+  - Eyüpspor
+  - FC Augsburg
+  - FC Barcelona
+  - FC Bayern München
+  - FC Nantes
+  - FC St. Pauli
+  - FCBarcelona
+  - FCBayern
+  - FCNantes
+  - Fenerbahce
+  - Fulham FC
+  - FulhamFC
+  - GalatasaraySK
+  - Gaziantep FK
+  - GaziantepFK
+  - Genoa CFC
+  - Getafe CF
+  - GetafeCF
+  - Girona FC
+  - GironaFC
+  - Goztepe
+  - Göztepe
+  - Hatayspor
+  - Hellas Verona
+  - Holstein Kiel
+  - Inter
+  - Ipswich Town
+  - KasimpasaSK
+  - Kasımpaşa
+  - Kayserispor
+  - Konyaspor
+  - LFC
+  - LOSC Lille
+  - Le Havre AC
+  - Leicester City
+  - Liverpool FC
+  - ManCity
+  - ManUtd
+  - NUFC
+  - OGC Nice
+  - OL
+  - OM_Officiel
+  - OfficialBHAFC
+  - OfficialUSLecce
+  - Olympique Lyonnais
+  - Olympique de Marseille
+  - PSG_inside
+  - Parma Calcio
+  - Pendikspor
+  - RC Lens
+  - RC Strasbourg
+  - RCCelta
+  - RCD Espanyol
+  - RCD Mallorca
+  - RCLens
+  - Rayo Vallecano
+  - RayoVallecano
+  - Real Valladolid
+  - RealSociedad
+  - SC Freiburg
+  - SS Lazio
+  - SSC Napoli
+  - SV Werder Bremen
+  - Samsunspor
+  - Sevilla FC
+  - SevillaFC
+  - Sivasspor
+  - Southampton FC
+  - SpursOfficial
+  - Stade Brestois
+  - Stade Rennais
+  - TSG Hoffenheim
+  - Torino FC
+  - Toulouse FC
+  - ToulouseFC
+  - US Lecce
+  - Udinese Calcio
+  - Valencia CF
+  - Venezia FC
+  - VfB
+  - VfB Stuttgart
+  - VfL Bochum
+  - VfL Wolfsburg
+  - Villarreal CF
+  - VillarrealCF
+  - WestHam
+  - Wolves
+  - acffiorentina
+  - acffiorentina
+  - acffiorentina
+  - acmilan
+  - acmilan
+  - acmilan
+  - acmonza
+  - afcb
+  - aja
+  - alanyaspor
+  - angers_sco
+  - antalyaspor
+  - arsenal
+  - arsenal
+  - asmonaco
+  - asmonaco
+  - asseofficiel
+  - atalanta_be
+  - atalantabc
+  - athleticclub
+  - atleticodemadrid
+  - atleticodemadrid
+  - avfcofficial
+  - avfcofficial
+  - bayer04
+  - bayer04fussball
+  - bayer04fussball
+  - besiktas
+  - besiktasjk
+  - bolobolognafootballclub
+  - bolognafc1909
+  - borussia
+  - borussia
+  - borussia
+  - brentfordfc
+  - brentfordfc
+  - bvb
+  - bvb09
+  - cagliaricalcio
+  - cagliaricalcio
+  - caosasuna
+  - caosasuna
+  - cdleganes
+  - chelseafc
+  - chelseafc
+  - comofootball
+  - cpfc
+  - cpfc
+  - crizesporas
+  - deportivoalaves
+  - deportivoalaves
+  - eintrachtfrankfurt
+  - everton
+  - everton
+  - eyupsporkulubu
+  - fcaugsburg1907
+  - fcbarcelona
+  - fcbarcelona
+  - fcbayern
+  - fcbayern
+  - fch_1846
+  - fcnantes
+  - fcnantes
+  - fcstpauli
+  - fcstpauli
+  - fcstpauli
+  - fenerbahce
+  - fenerbahce
+  - fulhamfc
+  - fulhamfc
+  - galatasaray
+  - galatasaray
+  - gaziantepfk
+  - genoacfc
+  - getafecf
+  - getafecf
+  - gironafc
+  - gironafc
+  - goztepe
+  - goztepesporkulubu
+  - hac_foot
+  - hatayspor
+  - hellasveronafc
+  - holsteinkiel
+  - ibfk2014
+  - inter
+  - inter
+  - ipswichtown
+  - juventus
+  - juventus
+  - juventusfc
+  - kasimpasask
+  - kayserisporfk
+  - konyaspor
+  - konyaspor
+  - konyaspor
+  - lcfc
+  - liverpoolfc
+  - liverpoolfc
+  - losclive
+  - manchesterunited
+  - mancity
+  - mancity
+  - manutd
+  - nufc
+  - nufc
+  - official_sslazio
+  - officialasroma
+  - officialbhafc
+  - officialbhafc
+  - officialnffc
+  - officialsscnapoli
+  - ogcnice
+  - ogcnice
+  - ogcnice
+  - ol
+  - ol_officiel
+  - olympiquedemarseille
+  - om
+  - parmacalcio1913
+  - parmacalcio1913
+  - pendikspor
+  - psg
+  - psg
+  - rayovallecano
+  - rayovallecano
+  - rbleipzig
+  - rccelta
+  - rccelta
+  - rcdespanyol
+  - rcdmallorcaoficial
+  - rclens
+  - rclens
+  - rcsa
+  - realbetisbalompie
+  - realmadrid
+  - realmadrid
+  - realmadrid
+  - realsociedad
+  - realsociedad
+  - realvalladolid
+  - samsunspor
+  - scfreiburg
+  - scfreiburg
+  - scfreiburg
+  - sevillafc
+  - sevillafc
+  - sivasspor
+  - southamptonfc
+  - spursofficial
+  - spursofficial
+  - stadebrestois29
+  - staderennais
+  - staderennaisfc
+  - staderennaisfc
+  - torinofc1906
+  - toulousefc
+  - toulousefc
+  - trabzonspor
+  - trabzonspor
+  - tsghoffenheim
+  - udinesecalcio
+  - uslecce
+  - uslecce
+  - valenciacf
+  - valenciacf
+  - valenciacf
+  - veneziafc
+  - vfb
+  - vfb
+  - vfl.wolfsburg
+  - vflbochum1848.official
+  - villarrealcf
+  - villarrealcf
+  - werderbremen
+  - werderbremen
+  - werderbremen
+  - westham
+  - westham
+  - wolves
+  - wolves
+  - Çaykur Rizespor
+  - İstanbul Başakşehir
